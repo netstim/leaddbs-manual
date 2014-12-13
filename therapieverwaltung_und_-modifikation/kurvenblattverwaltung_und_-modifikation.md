@@ -1,1 +1,0 @@
-# Kurvenblattverwaltung und -modifikation

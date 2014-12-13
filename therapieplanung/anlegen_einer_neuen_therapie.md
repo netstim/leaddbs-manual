@@ -1,1 +1,0 @@
-# Anlegen einer neuen Therapie

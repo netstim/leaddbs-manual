@@ -1,25 +1,20 @@
 CACHE MANIFEST
-# Revision 1404681302957
+# Revision 1404224397685
 
 CACHE:
-einleitung/README.html
+Acquiring and Setting Atlases.html
+Installation.html
+Formatting the Image File Names.html
+Lead-DBS Main Window and Loading Images.html
+Normalization of Images.html
 index.html
-aufbau_der_software/README.html
-integration_von_chemocompile_in_die_bestehende_it-umgebung/README.html
-integration_von_chemocompile_in_die_bestehende_it-umgebung/schnittstellen.html
-protokolle_verwalten/README.html
-protokolle_verwalten/ein_neues_protokoll_anlegen.html
-therapieplanung/README.html
-therapieplanung/abschicken_einer_therapie.html
-therapieplanung/anlegen_einer_neuen_therapie.html
-therapieplanung/anpassung_von_kurvenblattern.html
-therapieplanung/neue_therapie,_ausgehend_vom_patienten.html
-therapieplanung/neue_therapie,_ausgehend_vom_protokollbaum.html
-therapieplanung/neue_therapie,_ausgehend_von_leerem_blatt.html
-therapieplanung/ubersicht_uber_die_geplante_therapie.html
-therapieverwaltung_und_-modifikation/README.html
-therapieverwaltung_und_-modifikation/kurvenblattverwaltung_und_-modifikation.html
-verwaltung_der_chemocompile_datenbank/README.html
+Reconstruction of Electrode Trajectory.html
+Setting a Path for _Lead-DBS_ in MATLAB.html
+Creating the 3D Scene.html
+group_analyses_with_lead-dbs/README.html
+manual_correction_of_electrode_localization/README.html
+reconstruction_statistics/README.html
+writing_2d_images/README.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
