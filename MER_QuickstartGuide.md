@@ -6,16 +6,16 @@
 2. Under `%% environment` change 
     - `prefs.env.dev=0;` to `prefs.env.dev=1;`
 3. You should now see a new button when opening a 3-D scene 
-<img src="https://github.com/leaddbs/leaddbs/blob/master/Lead_manual/images/MER_toolbar.png" height="75%" width="75%" align="center" />
+<img src="https://github.com/akapp/leaddbs-manual/blob/master/images/MER_toolbar.png" height="75%" width="75%" align="center" />
 
 ### Load MER Localizer
 1. Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of the MER locations based on the lead localization.
 
-<img src="https://github.com/leaddbs/leaddbs/blob/master/Lead_manual/images/MER_screenshot.png" height="50%" width="50%" align="center" />
+<img src="https://github.com/akapp/leaddbs-manual/blob/master/images/MER_screenshot.png" height="50%" width="50%" align="center" />
 
 2. And a new MER Control GUI will pop up.
 
-<img src="https://github.com/leaddbs/leaddbs/blob/master/Lead_manual/images/MER_controlgui.png" height="50%" width="50%" align="center" />
+<img src="https://github.com/akapp/leaddbs-manual/blob/master/images/MER_controlgui.png" height="50%" width="50%" align="center" />
 
 3. Choose the implanted tract from the dropdown menu near `Right` or `Left`
 
