@@ -24,7 +24,15 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
   a) Entering the position in the edit box, 
   OR
   b) Using the arrow keys `Left/Right` or `Up/Down` to edit the position of the microelectrode location.
-      - note: Choose a toggle button for the electrode of interest. Hold `Shift` to increase step size.
+      - note: Choose a toggle button for the electrode of interest. 
+      - Hold `Shift` to increase step size. Hold `option` to decrease step size.
       
 4. Mark a recording site using keyboard shortcuts
-`spacebar = generic`
+- Reserved keys:
+    - `spacebar = "generic"`
+    - `m = "MER"`
+    - `l = "LFP"`
+    - `t = "Top"`
+    - `b = "Bottom"`
+
+5. Use the `export markers` <img src="https://github.com/leaddbs/leaddbs/blob/master/icons/export.png" height="24" width="24" /> button in the MER Control GUI to save markers as a `.mat` file. 
