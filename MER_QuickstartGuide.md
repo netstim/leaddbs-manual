@@ -35,4 +35,4 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
     - `t = "Top"`
     - `b = "Bottom"`
 
-5. Use the `export markers` <img src="https://github.com/leaddbs/leaddbs/blob/master/icons/export.png" height="24" width="24" /> button in the MER Control GUI to save markers as a `.mat` file. 
+5. Use the `export markers` <img src="https://github.com/leaddbs/leaddbs/blob/master/icons/export.png" height="18" width="18" /> button in the MER Control GUI to save markers as a `.mat` file. 
