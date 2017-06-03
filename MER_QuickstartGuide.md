@@ -16,6 +16,7 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
 
 #
 <img src="https://github.com/akapp/leaddbs-manual/blob/master/images/MER_controlgui.png" height="58%" width="58%" align="right" />
+
 1. Choose the implanted tract from the dropdown menu near `Right` or `Left`
 
 2. Toggle the implanted tracks on and off `Central, Anterior, Posterior, Lateral, Medial`.
