@@ -21,17 +21,18 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
 
 2. Toggle the implanted tracks on and off `Central, Anterior, Posterior, Lateral, Medial`.
 
-3. Change the location of the MER site by
+3. Change the location of the MER site by:
   
     - Entering the position in the edit box
+    
   OR
+  
     - Using the arrow keys to change the position along the track
        - Hold `Shift` to increase step size. 
        - Hold `option` to decrease step size.
               - note: Choose a toggle button for the electrode of interest. 
       
-4. Mark a recording site using keyboard shortcuts
-- Reserved keys:
+4. Mark a recording site using keyboard shortcuts. Reserved keys:
     - `spacebar = "generic"`
     - `m = "MER"`
     - `l = "LFP"`
