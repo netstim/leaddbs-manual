@@ -25,8 +25,7 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
   
     - Entering the position in the edit box
     
-  OR
-  
+    OR
     - Using the arrow keys to change the position along the track
        - Hold `Shift` to increase step size. 
        - Hold `option` to decrease step size.
