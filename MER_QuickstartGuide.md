@@ -22,13 +22,11 @@ Clicking the MER icon in the 3D viewer toolbar will give you a reconstruction of
 
 3. Change the location of the MER site by
   
-         a. Entering the position in the edit box, 
-  
+    - Entering the position in the edit box, 
   OR
-  
-         b. Using the arrow keys `Left/Right` or `Up/Down` to edit the position of the microelectrode location.
-   - note: Choose a toggle button for the electrode of interest. 
-   - Hold `Shift` to increase step size. Hold `option` to decrease step size.
+    - Using the arrow keys `Left/Right` or `Up/Down` to edit the position of the microelectrode location.
+       - note: Choose a toggle button for the electrode of interest. 
+       - Hold `Shift` to increase step size. Hold `option` to decrease step size.
       
 4. Mark a recording site using keyboard shortcuts
 - Reserved keys:
