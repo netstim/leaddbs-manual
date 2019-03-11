@@ -24,7 +24,7 @@ You can run multiple seeds to whole-brain connectivity by choosing a text file y
 
 ![](.gitbook/assets/lead_mapper_seeds.jpg)
 
-Another useful utility in ELAD mapper, which resides in the Tools menue, is the VAT tool which let you aggregate VATs nifti files from selected patients folders to specific place. You can aggregate VATs according to side of the brain or as combined bilateral VAT images. This will basically copy the VAT mask files to the specified folder you select in addition to a text file containing a list of VATs path. Another feature is to select among structural or functional VAT and whether you want to extract the E-field of the VAT binary mask nifti images.
+Another useful utility in LEAD mapper, which resides in the Tools menu, is the VAT tool which let you aggregate VATs nifti files from selected patients folders to specific place. You can aggregate VATs according to side of the brain or as combined bilateral VAT images. This will basically copy the VAT mask files to the specified folder you select in addition to a text file containing a list of VATs path. Another feature is to select among structural or functional VAT and whether you want to extract the E-field of the VAT binary mask nifti images.
 
 ![](.gitbook/assets/lead_mapper_aggregate.png)
 
