@@ -28,6 +28,7 @@
 * [MER analysis](mer-analysis.md)
 * [Troubleshooting / Specific Help](troubleshooting-specific-help/README.md)
   * [Adding Fortran dependencies for VTA modeling](troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
-* [Useful command-line tools](useful-command-line-tools.md)
+* [Matlab scripting examples](useful-command-line-tools.md)
+* [Command line interface](command-line-interface.md)
 * [Ways to contribute to Lead-DBS](ways-to-contribute-to-lead-dbs.md)
 

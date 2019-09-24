@@ -1,4 +1,4 @@
-# Useful command-line tools
+# Matlab scripting examples
 
 We will list useful scripts / command-line calls that are shipped within Lead-DBS on this site. Please note that a lot of these scripts are buggy and may not be well maintained. Also, the documentation may be outdated. But they provide some insight about useful tools for expert users.
 
