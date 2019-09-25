@@ -29,6 +29,7 @@
 * [Troubleshooting / Specific Help](troubleshooting-specific-help/README.md)
   * [Adding Fortran dependencies for VTA modeling](troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
 * [Matlab scripting examples](useful-command-line-tools.md)
-* [Command line interface](command-line-interface.md)
+* [Command line interface](command-line-interface/README.md)
+  * [Command line options](command-line-interface/command-line-options.md)
 * [Ways to contribute to Lead-DBS](ways-to-contribute-to-lead-dbs.md)
 
