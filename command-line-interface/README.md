@@ -16,7 +16,7 @@ As in Matlab, it is possible to directly open Lead-DBS or Connectome, etc using 
 
 ### Running lead processes from the command line
 
-It is also possible to execute a process **without** the lead GUI by specifying further options. For example in order to run coregistration and normalization using the Segment algorithm:
+It is also possible to execute a process **without** the lead GUI by specifying further options. For example, in order to run coregistration and normalization using the Segment algorithm:
 
 ```text
 ./run_lead.sh /Applications/MATLAB/MATLAB_Runtime/v96 dbs -coreg_checkbox -normalize_checkbox -normmethod 2 /path/to/patient/dir
