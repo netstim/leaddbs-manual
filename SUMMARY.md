@@ -24,6 +24,7 @@
 * [Group analyses with LEAD-DBS](group_analyses_with_lead-dbs.md)
 * [Lead Mapper](lead-mapper.md)
 * [Connectomics](connectomic_analyses/README.md)
+  * [DMRI](connectomic_analyses/dmri.md)
   * [fMRI-Analysis](connectomic_analyses/fmri_analysis.md)
 * [MER analysis](mer-analysis.md)
 * [Troubleshooting / Specific Help](troubleshooting-specific-help/README.md)
