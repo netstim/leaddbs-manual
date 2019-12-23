@@ -66,7 +66,7 @@ ea_view(v); % apply view.
 
 ```
 
-![The code above should produce something like this screenshot \(showing the STN wireframes in the Elvis viewer\).](.gitbook/assets/bildschirmfoto-2019-02-17-um-13.58.55.png)
+![The code above should produce something like this screenshot \(showing the STN wireframes in the Elvis viewer\).](../.gitbook/assets/bildschirmfoto-2019-02-17-um-13.58.55.png)
 
 ## Export / Data Visualization
 
