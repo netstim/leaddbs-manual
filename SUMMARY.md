@@ -21,7 +21,7 @@
 * [Brainshift Correction](subcortical-refine-post-to-pre-transforms.md)
 * [Creating the 3D Scene](creating-the-3d-scene.md)
 * [Reconstruction Statistics](reconstruction_statistics.md)
-* [Group analyses with LEAD-DBS](group_analyses_with_lead-dbs.md)
+* [Group analyses with Lead-DBS](group_analyses_with_lead-dbs.md)
 * [Lead Mapper](lead-mapper.md)
 * [Connectomics](connectomic_analyses/README.md)
   * [DMRI](connectomic_analyses/dmri.md)

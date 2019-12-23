@@ -1,4 +1,4 @@
-# Group analyses with LEAD-DBS
+# Group analyses with Lead-DBS
 
 Within the `lead` GUI, multiple patient folders can be selected and consecutively processed, which is especially convenient e.g. for the normalization and reconstruction steps. Please make sure to check accuracy of both normalization and reconstruction for each patient you analyse.
 
