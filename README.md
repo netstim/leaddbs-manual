@@ -1,6 +1,6 @@
 # Introduction
 
-The _Lead Toolbox_ is a **MATLAB**-based toolbox with several subparts that work ideally together. _Lead-DBS_ is a toolbox that allows the user to **localize** and **visualize** in a 3D model electrodes in patients treated with _**deep brain stimulation**_. _Lead-Connectome_ is a toolbox entailed with functional and structural whole-brain connectome analyses.
+The _Lead-DBS Toolbox_ is a **MATLAB**-based toolbox with several subparts that work ideally together. _Lead-DBS_ is a toolbox that allows the user to **localize** and **visualize** in a 3D model electrodes in patients treated with _**deep brain stimulation**_. _Lead-Connectome_ is a toolbox entailed with functional and structural whole-brain connectome analyses.
 
 This manual focuses on the _Lead-DBS_ subpart of the toolbox.
 
