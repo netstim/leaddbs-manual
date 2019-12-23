@@ -37,7 +37,7 @@ leaddbs/templates/space/MNI_ICBM_2009b_NLIN_ASYM/atlases/my_atlas/lh/STN.nii.gz
 
 These files can be either compressed \(.nii.gz\) or uncompressed \(.nii\). Usually, it is not necessary to call the structures "left" or "right". For instance, something like `STN_lh.nii.gz` is not necessary. This is especially not intended, if the same structure appears in both `lh` and `rh` subfolders. In that case, the filenames should be identical. Place structures that exist only once in the brain \(such as the hypophysis\) or midline structures \(like the fornix\) into the `midline` subfolder. In case you have one NIfTI file for a bilateral structure \(such as one file showing left and right STN\) into the `mixed` subfolder.
 
-NIfTI files can be either binary \(0 vs. 1\) or probabilistic. See changing _thresholds of probabilistic atlases_ below for more details on the latter.
+NIfTI files can be either binary \(0 vs. 1\) or probabilistic. See [Customizing Atlas Visualization](customizing_atlas_visualization.md) for more details on the latter.
 
 To finalize the atlas, open up Lead-DBS, select the atlas from the dropdown menu, check `Render 3D` and press `Run`. The first run takes long, be patient. The reason is that Lead-DBS needs to aggregate all information into a single file \(`atlas_index.mat`\) and creates a gray matter mask for VTA calculations \(`gm_mask.nii.gz`\).
 
@@ -115,4 +115,10 @@ atlases.colormap=ea_redblue;
 ```
 
 will result in Lead-DBS mapping entries in `atlases.colors` ascendingly from red over white to blue.
+
+For more options on [how to customize atlas visualizations, see the next page](customizing_atlas_visualization.md).
+
+{% hint style="info" %}
+For a whole commented example script of how to install and modify a custom atlas, [see this page](../../useful-command-line-tools/installing-an-atlas-from-a-repository.md).
+{% endhint %}
 

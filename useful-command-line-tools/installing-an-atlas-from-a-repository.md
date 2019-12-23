@@ -1,4 +1,4 @@
-# Installing an atlas from a repository
+# Installing an atlas from an online repository
 
 In this example, we will use install the `Melbourne subcortex atlas` using code. The complete code is installed in `leaddbs/support_scripts/ressources/install_melbourne_atlas.m` \(or [here on github](https://github.com/netstim/leaddbs/blob/develop/support_scripts/ressources/install_melbourne_atlas.m)\) but is explained in step-by-step sections below:
 
