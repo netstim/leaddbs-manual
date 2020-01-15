@@ -26,6 +26,14 @@ Where `path/to/patient/dir` is the directory of the patient.  Multiple patients 
 
 Command line options are defined the same way as the handles name in the GUI. It is possible to query them opening the `lead_dbs.fig` in GUIDE and clicking the desired component. A non extensive list of options is also listed in the [Command line options](command-line-options.md) page.
 
+Using the `-process`  option the basic Lead-DBS pipeline is executed: coregistration, normalization, brain shift correction and electrode reconstruction \(PaCER\). For example:
+
+```text
+./run_lead.sh /Applications/MATLAB/MATLAB_Runtime/v96 dbs -process /path/to/patient/dir
+```
+
+When using the `-process`  option it is also possible to specify [BIDS](https://bids.neuroimaging.io/) subject directory\(s\). In this case the subject images will be processed in a derivates \(Lead\_DBS-like\) folder. If a BIDS root directory is set, then all of its subjects will be processed.
+
 ### Running exported jobs from the command line
 
 Exported jobs created with the _Export Code_ button can be run from the command line using the `execute` command and specifying the file location:
