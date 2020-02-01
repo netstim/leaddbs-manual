@@ -84,6 +84,30 @@ Overlay a nifti file to the MNI space surfice templates and export results as pn
 
 ## Coordinates and image manipulation
 
+### Querying electrode placement
+
+Electrode coordinates are stored inside the `ea_reconstruction.mat` files inside patient folders and also in the `M.elstruct` variable of the `Lead_groupanalysis.mat`files of Lead group projects.
+
+```text
+XYZ=reco.mni.coords_mm{1}
+```
+
+will deliver the right-hemispheric \(`{1}`\) x \(laterality\), y \(anterio-posterior axis\) and z \(dorso-ventral / superior-inferior axis\) coordinates in template space. Usually \(by default\) these will be within ICBM 152 2009b Nonlinear Asymmetric space, the most modern and precise "MNI space". See [here](https://www.lead-dbs.org/about-the-mni-spaces/) for more about different spaces. Left hemispheric electrodes will be stored in the second cell \(`{2}`\). To get coordinates in native subject space, use the `reco.native.coords_mm` \(before brain shift correction, i.e. inside the postoperative volume\) or the `reco.scrf.coords_mm`entry \(after brain shift correction, i.e. inside the anchor modality. Note that those are **not** ACPC coordinates. 
+
+By default, ACPC coordinates are not computed, but this can be done. To enable it, change the line `prefs.reco.saveACPC=0;`to `prefs.reco.saveACPC=1;` within the preferences file \(to open the preferences file hit cmd+P in the Lead-DBS main GUI.
+
+Once this flag is enabled, the `reco`variable will have another entry called `acpc`with the same logic.
+
+If you are dealing with more than two electrodes, the `reco.space.` cells will have more than two entries but usually, right hemispheric electrodes should be stored in the first and left in the second entry.
+
+Inside these entries, contacts are numbered from bottom to top, for instance
+
+```text
+XYZ=reco.scrf.coords_mm{2}(3,:)
+```
+
+will deliver the left hemispheric \(`{2}`\) third most ventral \(`(3,:)`\) contact inside the native space anchor modality \(which is usually the T1 image\). Of note, those are usually not that useful and not comparable across subjects. The `mni` or `acpc` coordinates are and we strongly suggest using `mni`coordinates for comparisons or statistical analyses.
+
 ### ea\_spherical\_roi
 
 This function will make a spherical region of interest around a user identified mni coordinates. It takes file name, mni coordinates in \(mm\), radius \(in mm\), and path of space template file in which the sphere will be identified, as arguments  
