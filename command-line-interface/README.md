@@ -8,12 +8,6 @@ To run lead, open a terminal in the application folder of the standalone release
 ./run_lead.sh /Applications/MATLAB/MATLAB_Runtime/v96
 ```
 
-As in Matlab, it is possible to directly open Lead-DBS or Connectome, etc using the keywords `dbs` , `connectome` , `group` and so on.
-
-```text
-./run_lead.sh /Applications/MATLAB/MATLAB_Runtime/v96 dbs
-```
-
 ### Running lead processes from the command line
 
 It is also possible to execute a process **without** the lead GUI by specifying further options. For example, in order to run coregistration and normalization using the Segment algorithm:
