@@ -1,4 +1,4 @@
-# fMRI-Analysis
+# fMRI-Analysis: Patient Specific Processing
 
 ## Data preparation
 

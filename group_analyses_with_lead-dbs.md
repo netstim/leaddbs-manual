@@ -1,5 +1,11 @@
 # Group analyses with Lead-DBS
 
+{% hint style="info" %}
+Lead group is best documented by [this paper](https://www.biorxiv.org/content/10.1101/2020.01.14.904615v1) and the accompanying walkthrough tutorial found on [OSF](https://osf.io/kj456/).
+
+An older resource are  [these walkthrough slides](http://www.lead-dbs.org/docs/tutorials/group_analyses_horn.pdf)
+{% endhint %}
+
 Within the `lead` GUI, multiple patient folders can be selected and consecutively processed, which is especially convenient e.g. for the normalization and reconstruction steps. Please make sure to check accuracy of both normalization and reconstruction for each patient you analyse.
 
 Once the reconstruction step \(and manual correction step\) have been performed for a group of patients, you can load these in the group GUI, which you can start by entering
@@ -10,9 +16,7 @@ into the MATLAB command line.
 
 Within the group-GUI, select the patients using the `Add Patients` button.
 
-From here, several options for visualization and analysis of clinical/multimodal data are available.
-
-`lead group` is still in development and available documentation is scarce. The best documentation so far is provided in [these walkthrough slides](http://www.lead-dbs.org/docs/tutorials/group_analyses_horn.pdf). Please contact us for help with a group analysis.
+From here, several options for visualization and analysis of clinical/multimodal data are available \(see hint above\).
 
 ![](.gitbook/assets/lead_group_gui.png)  
 _Lead-Group GUI_
