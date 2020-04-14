@@ -32,13 +32,13 @@ In this method, each single tract is selected from the normative connectome. The
 
 ### Two-sample T-Tests / VTAs
 
-![](../../.gitbook/assets/figure2_vta.png)
+![Fig. 2: T-Test / VTA method](../../.gitbook/assets/figure2_vta.png)
 
 In this method, the same is done for binary VTAs \(which in the case of Lead-DBS are thresholded E-Fields\).
 
-**Fig. 1 A:** Each tract can either be connected or not connected to any VTA. Thus, each single tract splits the group of VTAs \(in template space\) into two sets.
+**Fig. 2 A:** Each tract can either be connected or not connected to any VTA. Thus, each single tract splits the group of VTAs \(in template space\) into two sets.
 
-**Fig. 1 B:** When calculating Two-sample T-tests between a clinical/behavioral variable \(e.g. %-UPDRS-III improvement\) observed in the group of connected vs. unconnected VTAs, we will get a T-value for each tract.
+**Fig. 2 B:** When calculating Two-sample T-tests between a clinical/behavioral variable \(e.g. %-UPDRS-III improvement\) observed in the group of connected vs. unconnected VTAs, we will get a T-value for each tract.
 
-**Fig. 1 C:** We can now use these values \(T-scores\) to color-code and select tracts for visualization.
+**Fig. 2 C:** We can now use these values \(T-scores\) to color-code and select tracts for visualization.
 
