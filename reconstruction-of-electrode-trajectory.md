@@ -1,6 +1,6 @@
 # Pre-reconstructing the Electrode Trajectory
 
-Once normalized volumes are found within the chosen patient folder, the images are ready to be directly used for pre-reconstruction of the electrode trajectories and for manual refinement \(which is the actual electrode reconstruction step\).
+Once normalized volumes are found within the chosen patient folder, the images are ready to be used for pre-reconstruction of the electrode trajectories and for manual refinement \(which is the actual electrode reconstruction step\).
 
 Below, the automatic pre-reconstruction is explained which needs to be followed up by [the manual reconstruction step to yield meaningful results](https://leaddbs.gitbooks.io/leaddbs-manual/content/manual_correction_of_electrode_localization/).
 
