@@ -1,6 +1,6 @@
 # Installation
 
-_Lead-DBS_ is a toolbox that works in the [MATLAB](http://www.mathworks.de/products/matlab/) environment \([The Mathworks](http://www.mathworks.com/)\). The optimal recommended version to use is ML 2015b. A version ≥2014b is needed for some functions & visualizations. We try to maintain compatibility to all three OSs, but given our small team, not all functions are well tested on all OSs \([fork us on github and join our team to improve that](http://www.github.com/leaddbs/leaddbs)\). The best-tested setting is running Lead-DBS on a Macintosh on ML 2015b.
+_Lead-DBS_ is a toolbox that works in the [MATLAB](http://www.mathworks.de/products/matlab/) environment \([The Mathworks](http://www.mathworks.com/)\). The optimal recommended version to use is ML 2019a. A version ≥2016b is needed for some functions & visualizations. We try to maintain compatibility to all three OSs, but given our small team, not all functions are well tested on all OSs \([fork us on github and join our team to improve that](http://www.github.com/leaddbs/leaddbs)\). The best-tested setting is running Lead-DBS on a Macintosh on ML 2015b.
 
 Yet, there are some required steps before you can use the toolbox:
 
