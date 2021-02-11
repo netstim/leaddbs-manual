@@ -33,6 +33,7 @@
   * [Adding Fortran dependencies for VTA modeling](troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
 * [Matlab scripting examples](useful-command-line-tools/README.md)
   * [Installing an atlas from an online repository](useful-command-line-tools/installing-an-atlas-from-a-repository.md)
+  * [Warping a normative connectome to native subject space](useful-command-line-tools/warping-a-normative-connectome-to-native-subject-space.md)
 * [Command line interface](command-line-interface/README.md)
   * [Command line options](command-line-interface/command-line-options.md)
 * [Ways to contribute to Lead-DBS](ways-to-contribute-to-lead-dbs.md)
