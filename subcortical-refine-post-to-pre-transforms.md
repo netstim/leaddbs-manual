@@ -1,14 +1,14 @@
-# Brainshift Correction
+# Brain shift Correction
 
-## Brainshift Correction
+## Brain shift Correction
 
 ### _Subcortical Refine Post- to Pre- transforms_
 
-This part of the processing pipeline is a tool to reduce bias introduced by brainshift.
+This part of the processing pipeline is a tool to reduce bias introduced by brain shift.
 
 ### Motivation
 
-Brainshift happens when the skull is opened during surgery, it means that the brain \(often nonlinearly\) moves in respect to the skull, e.g. due to pneumocephalus:
+Brain shift happens when the skull is opened during surgery, it means that the brain \(often nonlinearly\) moves in respect to the skull, e.g. due to pneumocephalus:
 
 ![](.gitbook/assets/pneumocephalus_sole.png)
 

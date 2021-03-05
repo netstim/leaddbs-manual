@@ -18,7 +18,7 @@
   * [Possible Problems with the Automatic Algorithm](determining-the-orientation-of-directional-leads/possible-problems-with-the-automatic-algorithm.md)
   * [User-Assisted Algorithm \(Manual Refine\)](determining-the-orientation-of-directional-leads/user-assisted-algorithm-manual-refine.md)
 * [Writing 2D Images](writing_2d_images.md)
-* [Brainshift Correction](subcortical-refine-post-to-pre-transforms.md)
+* [Brain shift Correction](subcortical-refine-post-to-pre-transforms.md)
 * [Creating the 3D Scene](creating-the-3d-scene.md)
 * [Reconstruction Statistics](reconstruction_statistics.md)
 * [Group analyses with Lead-DBS](group_analyses_with_lead-dbs.md)
