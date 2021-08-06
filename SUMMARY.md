@@ -32,6 +32,7 @@
 * [Troubleshooting / Specific Help](troubleshooting-specific-help/README.md)
   * [Adding Fortran dependencies for VTA modeling](troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
 * [Matlab scripting examples](useful-command-line-tools/README.md)
+  * [Creating VTAs programmatically](useful-command-line-tools/creating-vtas-programmatically.md)
   * [Installing an atlas from an online repository](useful-command-line-tools/installing-an-atlas-from-a-repository.md)
   * [Warping a normative connectome to native subject space](useful-command-line-tools/warping-a-normative-connectome-to-native-subject-space.md)
 * [Command line interface](command-line-interface/README.md)
