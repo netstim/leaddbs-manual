@@ -13,11 +13,10 @@
 
 ## Lead-DBS
 
-* [0. Overview](lead-dbs/0.-overview.md)
-* [1. Load Patient Folder](lead-dbs/1.-load-patient-folder/README.md)
-  * [Main Window and Loading Images](lead-dbs/1.-load-patient-folder/lead-dbs-main-window-and-loading-images/README.md)
-    * [Renaming the Image Files](lead-dbs/1.-load-patient-folder/lead-dbs-main-window-and-loading-images/formatting-the-image-file-names.md)
-* [2. Image Import](lead-dbs/2.-image-import.md)
+* [Overview](lead-dbs/0.-overview.md)
+* [1. Load Patient Folder](lead-dbs/1.-load-patient-folder.md)
+* [2. Image Import](lead-dbs/2.-image-import/README.md)
+  * [File Naming Format](lead-dbs/2.-image-import/file-naming-format.md)
 * [3. Volume Registrations](lead-dbs/3.-volume-registrations/README.md)
   * [Normalizing the Images](lead-dbs/3.-volume-registrations/normalization-of-images/README.md)
     * [Checking the Coregistrations and Normalizations](lead-dbs/3.-volume-registrations/normalization-of-images/checking_the_coregistration.md)
