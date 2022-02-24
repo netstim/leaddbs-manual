@@ -20,6 +20,7 @@
 * [Writing 2D Images](writing\_2d\_images.md)
 * [Brain shift Correction](subcortical-refine-post-to-pre-transforms.md)
 * [Creating the 3D Scene](creating-the-3d-scene.md)
+* [Stimulation Parameters](stimulation-parameters.md)
 * [Reconstruction Statistics](reconstruction\_statistics.md)
 * [Group analyses with Lead-DBS](group\_analyses\_with\_lead-dbs.md)
 * [Lead Mapper](lead-mapper.md)
