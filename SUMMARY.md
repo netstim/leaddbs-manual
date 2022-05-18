@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [How to contribute to Lead-DBS](ways-to-contribute-to-lead-dbs.md)
 
-## Installation <a href="#installation" id="installation"></a>
+## Installation
 
 * [Dependencies](installation/dependencies.md)
 * [Installation](installation/installation.md)
@@ -58,6 +58,7 @@
   * [Customizing Atlas Visualization](appendix/acquiring-and-setting-atlases/customizing-atlas-visualization.md)
 * [Troubleshooting / Specific Help](appendix/troubleshooting-specific-help/README.md)
   * [Adding Fortran dependencies for VTA modeling](appendix/troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
+* [WarpDrive](appendix/warpdrive.md)
 * [Command line interface](appendix/command-line-interface/README.md)
   * [Command line options](appendix/command-line-interface/command-line-options.md)
 * [Matlab scripting examples](appendix/useful-command-line-tools/README.md)
