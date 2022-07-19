@@ -58,6 +58,7 @@
   * [Customizing Atlas Visualization](appendix/acquiring-and-setting-atlases/customizing-atlas-visualization.md)
 * [Troubleshooting / Specific Help](appendix/troubleshooting-specific-help/README.md)
   * [Adding Fortran dependencies for VTA modeling](appendix/troubleshooting-specific-help/adding-fortran-dependencies-for-vta-modeling.md)
+  * [VTA Calculation Troubleshoot](appendix/troubleshooting-specific-help/vta-calculation-troubleshoot.md)
 * [WarpDrive](appendix/warpdrive.md)
 * [Command line interface](appendix/command-line-interface/README.md)
   * [Command line options](appendix/command-line-interface/command-line-options.md)
