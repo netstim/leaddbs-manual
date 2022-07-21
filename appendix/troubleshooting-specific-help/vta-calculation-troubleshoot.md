@@ -8,6 +8,7 @@ description: Troubleshooting VTA Generation
 2. Given the variations of electrode placements relative to anatomical structures, it can happen that during mesh building, triangles of the two components intersect. This will lead to downstream problems for calculating the voltage distribution and electric field. If this happens, Lead-DBS will throw out an error.
 3. This is a general problem of finite element method (FEM)-related mesh building and not unique to Lead-DBS. In other words, this is often not easy to automate for all cases of electrode placements and all atlases. For that reason, commercial software, such as SureTune or GuideXT uses heuristic shortcuts to calculate VTAs more robustly. In Lead-DBS, a similar shortcut that will work robustly has been implemented in form of the FastField method (Baniasadi et al, 2020).
 4. We have tried to make the process as robust as possible. However, despite many strategies and attempts, calculating VTAs with the SimBio method can still fail in some cases.
+5. We are also currently having some issues with VTA calculation errors on MAC M1-chip computers.&#x20;
 
 The following troubleshooting steps could be tried in case of such failures:
 
