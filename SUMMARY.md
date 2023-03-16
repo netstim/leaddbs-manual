@@ -51,6 +51,10 @@
     * [Discriminative Fibertracts analysis](connectomics/connectomic-analyses/using-normative-connectomes/discriminative-fibertracts-analysis.md)
 * [Lead Connectome Mapper](connectomics/lead-mapper.md)
 
+## Lead-OR
+
+* [Imaging setup](lead-or/imaging-setup.md)
+
 ## Appendix
 
 * [Code Backbone](appendix/code-backbone.md)
