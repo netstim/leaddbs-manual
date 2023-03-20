@@ -54,6 +54,7 @@
 ## Lead-OR
 
 * [Imaging setup](lead-or/imaging-setup.md)
+* [Electrophysiology setup](lead-or/electrophysiology-setup.md)
 
 ## Appendix
 
