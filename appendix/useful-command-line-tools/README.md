@@ -46,10 +46,10 @@ Store the current 3D view (v = ea\_view;) as variable v or set the current 3D vi
 ea_mnifigure('DISTAL Minimal (Ewert 2017)'); % open up Elvis viewer
 ea_keepatlaslabels('GPI'); % hide all structures except GPi
 load([ea_space([],'atlases'),'DISTAL Minimal (Ewert 2017)',filesep,'atlas_index.mat']); % manually load definition of DISTAL atlas.
-rSTN=atlases.fv{1,1}; % extract the right STN.
+rSTN=atlases.roi{1,1}.fv; % extract the right STN.
 rSTN=reducepatch(rSTN,0.5); % reduce patch a bit.
 patch('Faces',rSTN.faces,'Vertices',rSTN.vertices,'facecolor','none','edgecolor','w'); % visualize the right STN as wireframes.
-lSTN=atlases.fv{1,2}; % do the same for the left STN.
+lSTN=atlases.roi{1,2}.fv; % do the same for the left STN.
 lSTN=reducepatch(lSTN,0.5);
 patch('Faces',lSTN.faces,'Vertices',lSTN.vertices,'facecolor','none','edgecolor','w');
 ea_setplanes(0,-30,nan); % set planes to a nice view.
