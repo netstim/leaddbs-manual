@@ -1,6 +1,6 @@
 # 2. Image Import
 
-Lead-DBS can process different image views. However, the image files must have a **specific name format** for them to be recognized. The naming scheme can be changed in the `ea_prefs.m` file within the LEAD installation directory. If you use the built-in DICOM import function, you are asked to specify the type of each acquisition within a GUI and thus don't have to do the naming manually.
+Lead-DBS can process different image views. However, the image files must have a **specific name format** for them to be recognized. The naming scheme can be changed in the `ea_prefs.m` file within the LEAD installation directory. **If you use the built-in DICOM import function, you are asked to specify the type of each acquisition within a GUI and thus don't have to do the naming manually.**
 
 ### Import
 
