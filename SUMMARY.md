@@ -14,6 +14,7 @@
 * [1. Load Patient Folder](lead-dbs/step1-load-patient-folder.md)
 * [2. Image Import](lead-dbs/step2-image-import/README.md)
   * [Converting NIfTI-images into BIDS](lead-dbs/step2-image-import/converting-nifti-images-into-bids.md)
+  * [Converting DICOM files into BIDS](lead-dbs/step2-image-import/converting-dicom-files-into-bids.md)
 * [3. Volume Registrations](lead-dbs/step3-volume-registrations/README.md)
   * [Normalizing the Images](lead-dbs/step3-volume-registrations/normalization-of-images.md)
   * [Brainshift Correction](lead-dbs/step3-volume-registrations/subcortical-refine-post-to-pre-transforms.md)
