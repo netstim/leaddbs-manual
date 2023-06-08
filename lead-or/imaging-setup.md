@@ -25,7 +25,7 @@ See the following screenshots as reference:
 
 ## Creating new ORScene
 
-In order to create an ORScene __ follow the next steps:
+In order to create an ORScene follow the next steps:
 
 1. Process a subject in Lead-DBS with the **co-registration** and **normalization** steps.
 2. Place the surgical planning files under a `leador` subfolder within the subject folder.
