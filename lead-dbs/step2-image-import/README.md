@@ -2,8 +2,6 @@
 
 Lead-DBS can process different image views. However, the image files must have a **specific name format** for them to be recognized. The naming scheme can be changed in the `ea_prefs.m` file within the LEAD installation directory. If you use the built-in DICOM import function, you are asked to specify the type of each acquisition within a GUI and thus don't have to do the naming manually.
 
-![](../.gitbook/assets/lead-dbs-import-images.png)
-
 ### Import
 
 You can start by selecting the patient folder containing the DICOM images and run the **Import** function. To further process data, images must be in the `*.nii` file format.
@@ -14,7 +12,7 @@ If you don't start with DICOM images but instead already have your files convert
 
 ### Renaming and File Naming Format
 
-Image files must follow a specific naming format. Use the **Rename** function and Lead-DBS shows previews of the images to help with renaming**.** You need to specify the type of image (e.g., MRI, CT, diffusion, preoperative, postoperative). **** You can run both **Import** and **Rename** in one go. Alternatively you can rename the images manually.
+Image files must follow a specific naming format. Use the **Rename** function and Lead-DBS shows previews of the images to help with renaming\*\*.\*\* You need to specify the type of image (e.g., MRI, CT, diffusion, preoperative, postoperative). \*\*\*\* You can run both **Import** and **Rename** in one go. Alternatively you can rename the images manually.
 
 #### Preoperative images
 
@@ -30,4 +28,4 @@ Either you use MR imaging files with the following format: `postop_tra.nii` for 
 
 Or you use CT imaging files with the following format:`postop_ct.nii`, if CT images have not been coregistered to the `anat.nii` file) or `rpostop_ct.nii` (if CT images have already been coregistered to the `anat.nii` file).
 
-![The user interface to rename images.](../.gitbook/assets/lead-dbs-rename-images.png)
+![The user interface to rename images.](../../.gitbook/assets/lead-dbs-rename-images.png)
