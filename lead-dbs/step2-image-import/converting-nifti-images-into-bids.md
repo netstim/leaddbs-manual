@@ -12,8 +12,25 @@ Screenshot 1. Patient file - NIfTI
 
 <figure><img src="../../.gitbook/assets/patientfolder.png" alt=""><figcaption></figcaption></figure>
 
-To start the importing process, simply select "Import NIfTI to BIDS dataset" and click "RUN".
+To start the importing process, simply select "Import NIfTI to BIDS dataset" and click "RUN". It is possible to import multiple patient files by holding shift and selecting multiple patients.
 
-<figure><img src="../../.gitbook/assets/import.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/import.png" alt="" width="563"><figcaption></figcaption></figure>
 
-#### &#x20;<a href="#_toc95749084" id="_toc95749084"></a>
+A window will pop up where you need to s**pecify the session (preop or postop), type (anat, functional, dwi), modality and acquisition (sag, cor, axial, iso)**
+
+<figure><img src="../../.gitbook/assets/import-modality123.png" alt=""><figcaption></figcaption></figure>
+
+Here is another example with postoperative CT scans.
+
+<figure><img src="../../.gitbook/assets/postopct.png" alt=""><figcaption></figcaption></figure>
+
+#### Output
+
+* After Lead migrated all NIfTI files into BIDS format, you can find them in the selected output folder/dataset directory. In our case, the folder’s name was “Directory”
+* The folder contains three main sub-folders: “derivatives”, “raw data” and "source data". Each of these files contains data about our patients. The raw images that we have just converted will be stored under the **"rawdata/sub-\[PATIENTNAME]”** folder. The Lead will use these data for further analysis.
+* “Dataset\_description” file contains information about your dataset.
+
+<figure><img src="../../.gitbook/assets/folder2.png" alt=""><figcaption></figcaption></figure>
+
+
+
