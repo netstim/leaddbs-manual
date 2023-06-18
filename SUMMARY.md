@@ -16,6 +16,7 @@
   * [Converting NIfTI-images into BIDS](lead-dbs/step2-image-import/converting-nifti-images-into-bids.md)
   * [Converting DICOM files into BIDS](lead-dbs/step2-image-import/converting-dicom-files-into-bids.md)
 * [3. Volume Registrations](lead-dbs/step3-volume-registrations/README.md)
+  * [Coregister Volumes](lead-dbs/step3-volume-registrations/coregister-volumes.md)
   * [Normalizing the Images](lead-dbs/step3-volume-registrations/normalization-of-images.md)
   * [Brainshift Correction](lead-dbs/step3-volume-registrations/subcortical-refine-post-to-pre-transforms.md)
   * [Checking the Coregistrations and Normalizations](lead-dbs/step3-volume-registrations/checking-the-coregistration.md)
