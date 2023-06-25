@@ -15,12 +15,12 @@
 
 1. Load your patient folder in BIDS format into Lead as described in [step1-load-patient-folder.md](../step1-load-patient-folder.md "mention").
 2. Select the patient you want to register in the window on the left (arrow 1).
-3. Select "<mark style="background-color:yellow;">**Coregistration Volumes**</mark>" and "<mark style="background-color:yellow;">**Check Results**</mark>," so you can see the output of coregistration (arrows 2 and 3).&#x20;
-4. If coregistration has been run before, select "<mark style="background-color:yellow;">**Retouch/overwrite approved results**</mark>" (arrow 4) to get a new instance of coregistration results.
-5. Press <mark style="background-color:yellow;">**Run**</mark>. The processing power of your computer determines the duration of coregistration step.&#x20;
-6. To see how to check you results, consult [checking-the-coregistration.md](checking-the-coregistration.md "mention").
+3. Select `Coregistration Volumes` and `Check Results`, so you can see the output of coregistration (arrows 2 and 3).&#x20;
+4. If coregistration has been run before, select `Retouch/overwrite approved results` (arrow 4) to get a new instance of coregistration results.
+5. Press `Run`. The processing power of your computer determines the duration of the coregistration step.&#x20;
+6. To see how to check your results, consult [checking-the-coregistration.md](checking-the-coregistration.md "mention").
 
 ## Output
 
 * A pop-up window with information about methods and references. If this information is not needed, the window can be closed.
-* New coregistration data will appear in the selected file, under derivatives > leaddbs > patient\_name > coregistration.
+* New coregistration data will appear in the selected file, under `derivatives/leaddbs/patient_name/coregistration/`.

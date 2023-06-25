@@ -56,13 +56,13 @@ If applicable, Lead-DBS also gives you the option to normalize fiber tracking im
 
 <figure><img src="../../.gitbook/assets/UI_normalization (1).png" alt="" width="375"><figcaption><p> UI settings for normalization.</p></figcaption></figure>
 
-1. This step follows after coregistration. Select your patient and make sure "<mark style="background-color:yellow;">**Normalize Volumes**</mark>" and "<mark style="background-color:yellow;">**Check Results**</mark>" is selected (arrows 1 and 2).
-2. If normalization has been run before, select "<mark style="background-color:yellow;">**Retouch/overwrite approved results**</mark>" (arrow 4) to get a new instance of coregistration results.
-3. By clicking on "<mark style="background-color:yellow;">**Settings**</mark>" (arrow 5), you can select from the normalization protocols implemented in Lead. More details can be found here: [#built-in-normalization-protocols](normalization-of-images.md#built-in-normalization-protocols "mention"). Usually, the default settings work well.
-4. Press "<mark style="background-color:yellow;">**Run**</mark>." Normalization is comuptationally the most intense step and can take more than an hour, depending on your method chosen and your computer. Once it is done, you must assess the quality of results. For more information on that, please consult [checking-the-coregistration.md](checking-the-coregistration.md "mention").
-5. The atlas fit and results of the normalization can be manually edited. For a thorough tutorial on how to, follow instruction in [refine-atlas-fit-with-warpdrive.md](refine-atlas-fit-with-warpdrive.md "mention").
+1. This step follows after coregistration. Select your patient and make sure `Normalize Volumes` and `Check Results` is selected (arrows 1 and 2).
+2. If normalization has been run before, select `Retouch/overwrite approved results` (arrow 4) to get a new instance of coregistration results.
+3. By clicking on `Settings` (arrow 5), you can select from the normalization protocols implemented in Lead. More details can be found here: [#built-in-normalization-protocols](normalization-of-images.md#built-in-normalization-protocols "mention"). Usually, the default settings work well.
+4. Press `Run`. Normalization is computationally the most intense step and can take more than an hour, depending on the method chosen and your computer. Once it is done, you must assess the quality of the results. For more information on that, please consult [checking-the-coregistration.md](checking-the-coregistration.md "mention").
+5. The atlas fit and results of the normalization can be manually edited. For a thorough tutorial on how to, follow the instructions in [refine-atlas-fit-with-warpdrive.md](refine-atlas-fit-with-warpdrive.md "mention").
 
 ## Output
 
 * A pop-up window with information about methods and references. If this information is not needed, the window can be closed.
-* New normalization data will appear in the selected file, under derivatives > leaddbs > patient\_name > normalization.
+* New normalization data will appear in the selected file, under `derivatives/leaddbs/patient_name/normalization`.

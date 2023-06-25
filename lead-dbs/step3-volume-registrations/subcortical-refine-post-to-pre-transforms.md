@@ -7,7 +7,7 @@
 ![Pneumocephalus shown in a tonemapped CT image. Air has entered the skull after opening boreholes during surgery. The dark area in the frontal portion of the skull (yellow arrow) is air that pushes the soft tissue of the brain in occipital direction.](../../.gitbook/assets/pneumocephalus.png)
 
 2. _If you want to coregister the whole postop CT image to a preop MRI of the same patient, linear coregistration may result in a good match of the skull but a wrong coregistration of the brain, especially in frontal regions. Most often in DBS, we are interested in subcortical regions that could be seen as "remote enough" from the pneumocephalus. However, sometimes, there is no substantial brain shift or pneumocephalus to be found and it could be okay to not correct for this issue._
-3. _One common strategy in neuroimaging would be to use nonlinear deformations instead of linear transforms. However, in DBS, this is not possible since the electrodes in the postop image would be considered as part of the tissue and could be nonlinearly moved within the brain. If this is not clear to you, think about why this is exactly what we do not want: Since we are interested in the relative location of the DBS electrodes with respect to other brain structures, we should never apply a nonlinear transform between postop and preop images._
+3. _One common strategy in neuroimaging would be to use nonlinear deformations instead of linear transforms. However, in DBS, this is not possible since the electrodes in the postop image would be considered part of the tissue and could be nonlinearly moved within the brain. If this is not clear to you, think about why this is exactly what we do not want: Since we are interested in the relative location of the DBS electrodes with respect to other brain structures, we should never apply a nonlinear transform between postop and preop images._
 4. _A solution that may drastically reduce the bias introduced by brainshift is to use linear transforms but apply them to subcortical regions of interest only:_
 
 ![The solution to reduce bias by brainshift as implemented in Lead-DBS. Top row: Standard approach which may lead to significant error if pneumocephalus is present. To account for this, you can refine the linear transform of the top row by using a bounding box (mid row) or by further applying masks of interest published by Schönecker 2008 (and graciously shared for use in Lead-DBS by Thomas).](../../.gitbook/assets/brainshift-correction.png)
@@ -37,16 +37,21 @@ _Many thanks go out to the organizers of the event – as always @ brainhack, it
 <figure><img src="../../.gitbook/assets/UI_brainshiftCorrection.png" alt="" width="375"><figcaption><p>UI settings for brainshift correction.</p></figcaption></figure>
 
 1. To run brainshift correction, you first go through rough coregistration and normalization to template space. Select the patient (arrow 1), tick `Brainshift correction` with a mask, `Check Results` and press `Run`.
-2. To estimate a transform, choose either `No Mask`, `Coarse Mask` or `Coarse + Fine Mask`. `No Mask` will just use the cropped images to estimate the transform and is not recommended.  By choosing `Coarse Mask`, a larger mask will be applied. If you choose to use both `Coarse + Fine Mask`, the coarse mask (blue mask in the Schönecker pulication within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") pannel) will be applied first, followed by the finer (yellow within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") pannel) mask.
+2. To estimate a transform, choose either `No Mask`, `Coarse Mask` or `Coarse + Fine Mask`. `No Mask` will just use the cropped images to estimate the transformation and is not recommended.  By choosing the `Coarse Mask`, a larger mask will be applied. If you choose to use both, `Coarse + Fine Mask.` The coarse mask (blue mask in the Schönecker publication within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) will be applied first, followed by the finer (yellow within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) mask.
 
-In our example, let's see the use of `Coarse Mask` option. This will produce the following result:
+In our example, let's see the use of the `Coarse Mask`. This will produce the following result:
 
 ![Examle of brainshift correction using Coarse + Fine Mask.](../../.gitbook/assets/results\_brainshift.png)
 
-As highlighted by the yellow arrows, some regions better overlap in this refined transform. The estimated transformation matrix is printed to the top right corner of the figure.
+As highlighted by the yellow arrows, some regions better overlap in this refined transform. The estimated transformation matrix is printed in the top right corner of the figure.
 
 You can use a slice viewer (such as e.g. [3D Slicer](http://slicer.org\)) to further examine results in detail. The relevant files will be in derivatives/leaddbs/`patient folder/brainshift/anat.`
 
-If you think the approach improved results, simply click `Approve & Close` to apply the transform to your DBS electrode reconstructions. If not, simply click `Disapprove & Close`. Alternatively, you can change the settings to `No Mask` or `Coarse + Fine Mask` and press `(Re-)compute coregistration using...` .
+If you think the approach improved results, click `Approve & Close` to apply the transform to your DBS electrode reconstructions. If not, click `Disapprove & Close`. Alternatively, you can change the settings to `No Mask` or `Coarse + Fine Mask` and press `(Re-)compute coregistration using...` .
+
+## Output
+
+* A pop-up window with information about methods and references. If this information is not needed, the window can be closed.
+* New normalization data will appear in the selected file, under `derivatives/leaddbs/patient_name/brainshift/`. `Anat` folder contains results, c`heckreg` folder stores the images as `.png` files
 
 ###
