@@ -2,7 +2,7 @@
 
 ## Context
 
-You are almost done! Once volumes are coregistered and optionally normalized, you can run `pre-reconstruct` of the electrode trajectories and `Localize DBS electrodes`, which is the actual electrode reconstruction step.
+1. _You are almost done! Once volumes are coregistered and optionally normalized, you can run `pre-reconstruct` of the electrode trajectories and `Localize DBS electrodes`, which is the actual electrode reconstruction step._
 
 ## How to
 
