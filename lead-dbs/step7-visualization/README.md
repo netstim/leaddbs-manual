@@ -2,11 +2,11 @@
 
 ## Context
 
-1. In the final step of the electrode reconstruction process, Lead offers a wide variety of options for electrode visualisation.&#x20;
-2. Lead allows you to choose the space in which you want to visualize the electrodes: the standard MNI space and the native space of the patient. If the latter is selected, the selected MNI atlas will be wrapped to the native patient space using an inversion of the transformation matrix that was generated during the process of normalization and which wrapped our patient image to the MNI space.
-3. We can also visualise the atlas to define how and which target regions should be displayed. Here, Lead offers an impressive collection of subcortical atlases.
-4. &#x20;One atlas has been specifically created for Lead DBS called the “Distal atlas.” This atlas precisely matched the MNI template, which other atlases usually do not. Moreover, it also offers you a parcellated STN and GPi (parcellated into sensorimotor and other functional areas through fibre tracking).
-5. Lead also offers to visualize the volume of tissue activated (VTA) by the electric field and fibres activated by this VTA (fibres stem from a normative connectome).
+1. _In the final step of the electrode reconstruction process, Lead offers a wide variety of options for electrode visualisation._&#x20;
+2. _Lead allows you to choose the space in which you want to visualize the electrodes: the standard MNI space and the native space of the patient. If the latter is selected, the selected MNI atlas will be wrapped to the native patient space using an inversion of the transformation matrix that was generated during the process of normalization and which wrapped our patient image to the MNI space._
+3. _We can also visualise the atlas to define how and which target regions should be displayed. Here, Lead offers an impressive collection of subcortical atlases._
+4. &#x20;_One atlas has been specifically created for Lead DBS called the “Distal atlas.” This atlas precisely matched the MNI template, which other atlases usually do not. Moreover, it also offers you a parcellated STN and GPi (parcellated into sensorimotor and other functional areas through fibre tracking)._
+5. _Lead also offers to visualize the volume of tissue activated (VTA) by the electric field and fibres activated by this VTA (fibres stem from a normative connectome)._
 
 ![Image 1. UI interface depicting visualization options part.](../../.gitbook/assets/Visualize.png)
 
