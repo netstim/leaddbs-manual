@@ -16,6 +16,7 @@
    * _Entry point:_ set `STN, GPi, or ViM`, `Cg25` or `Manual`. If set to _Manual_, you are prompted to select the starting point of the artifact for each side. The latter is important for troubleshooting but also if you try to reconstruct electrodes at uncommon DBS targets.
    * _Mask window size:_ either set a concrete value (the range of 5 to 20 might improve results) or set the value to “auto”. This option is only important for MR images, in CT imaging, a large mask size (e.g. 20) can be used but “auto” should work as well. If performing reconstructions based on MR images, please use a larger mask value if there is a lot of oedema around the electrode and a smaller value if the images are rather noisy. Smaller values will prevent the algorithm from “lose track” but might stop too soon if the artifacts are rather large.
    * For more information on TRAC/CORE, please consult [trac-core-details.md](trac-core-details.md "mention").
+4. If the pre-reconstruction algorithms fail, it is possible to continue with Manual Reconstruction.
 
 ### 2. Localize DBS electrodes
 
