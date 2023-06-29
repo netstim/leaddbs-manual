@@ -20,4 +20,4 @@ If you have problems with PACER or TRAC/CORE, it is also possible to pre-reconst
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-06-27 at 19.59.30 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Repeat with the other electrode and you're done!
-5. Continue with "Localize DBS Electrodes" to fine tune the electrode localization.
+5. Continue with "Localize DBS Electrodes" to fine tune the electrode localization. (explained in the page:[.](./ "mention") )
