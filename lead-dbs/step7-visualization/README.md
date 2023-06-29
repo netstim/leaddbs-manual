@@ -2,11 +2,11 @@
 
 ## Context
 
-1. _In the final step of the electrode reconstruction process, Lead offers a wide variety of options for electrode visualisation._&#x20;
-2. _Lead allows you to choose the space in which you want to visualize the electrodes: the standard MNI space and the native space of the patient. If the latter is selected, the selected MNI atlas will be wrapped to the native patient space using an inversion of the transformation matrix that was generated during the process of normalization and which wrapped our patient image to the MNI space._
-3. _We can also visualise the atlas to define how and which target regions should be displayed. Here, Lead offers an impressive collection of subcortical atlases._
-4. &#x20;_One atlas has been specifically created for Lead DBS called the “Distal atlas.” This atlas precisely matched the MNI template, which other atlases usually do not. Moreover, it also offers you a parcellated STN and GPi (parcellated into sensorimotor and other functional areas through fibre tracking)._
-5. _Lead also offers to visualize the volume of tissue activated (VTA) by the electric field and fibres activated by this VTA (fibres stem from a normative connectome)._
+1. _In the final step of the electrode reconstruction process, Lead-DBS offers a wide variety of options for electrode visualisation._&#x20;
+2. _Lead-DBS allows you to choose the space in which you want to visualize the electrodes: the standard MNI space and the native space of the patient. If the latter is selected, the selected MNI atlas will be wrapped to the native patient space using an inversion of the transformation matrix that was generated during the process of normalization and which wrapped our patient image to the MNI space._
+3. _We can also visualise the atlas to define how and which target regions should be displayed. Here, Lead-DBS offers an impressive collection of subcortical atlases._
+4. &#x20;_One atlas has been specifically created for Lead-DBS called the “Distal atlas.” This atlas precisely matched the MNI template, which other atlases usually do not. Moreover, it also offers you a parcellated STN and GPi (parcellated into sensorimotor and other functional areas through fibre tracking)._
+5. _Lead-DBS also offers to visualize the volume of tissue activated (VTA) by the electric field and fibres activated by this VTA (fibres stem from a normative connectome)._
 
 ![Image 1. UI interface depicting visualization options part.](../../.gitbook/assets/Visualize.png)
 
@@ -27,10 +27,10 @@
 
 ### 2. Rendering the 3D Scene
 
-![Image3. Lead 3D Viewer with Atlas Control and Slice Control panels on the right.](../../.gitbook/assets/3DViewer.png)
+![Image3. Lead-DBS 3D Viewer with Atlas Control and Slice Control panels on the right.](../../.gitbook/assets/3DViewer.png)
 
-1. If you set the `Render 3D` button in the Lead DBS main window and press the Run button, the Lead 3D viewer pops up and renders the reconstructed electrodes and the atlas components in the main window.
-2. This figure can be rotated in 3D using the built-in MATLAB 3D rotation tool and atlas components can be hidden (and shown back again) by pressing the corresponding colored check boxes in the secondary toolbar of the viewer (press the `alt`-key to hide/show all atlases of the set – this only works if no other tool, such as the MATLAB 3D rotation tool is selected).
+1. If you set the `Render 3D` button in the Lead-DBS main window and press the `Run` (Image 1) button, the Lead-DBS 3D viewer pops up and renders the reconstructed electrodes and the atlas components in the main window.
+2. This figure can be rotated in 3D using the built-in MATLAB 3D rotation tool and atlas components can be hidden (and shown back again) by pressing the corresponding colored checkboxes in the secondary toolbar of the viewer (press the `alt`-key to hide/show all atlases of the set – this only works if no other tool, such as the MATLAB 3D rotation tool is selected).
 3. In the 3D viewer, there are various icons in the tool strip. You can set:
 
 ![Image 4. Menu in the 3D viewer.](../../.gitbook/assets/3DViewerMenu.png)
@@ -39,10 +39,10 @@
 * `Electrode labels`: Shows/hides the patient names at the top of each electrode displayed. This is especially helpful when visualizing groups of patients in Lead Group.
 * `Add trajectory`: To add a trajectory to simulate, for instance, surgery.
 * `Stimulation Control Figure`: This button opens the stimulation settings window. Using this window, you can estimate VTAs.
-* `Slice Control Figure`: Opens the anatomy control figure which can be used to add x-, y- and z-slices of an MR image to the scene. You can choose to visualize the MNI template, the pre-/post-op MR images of the current patient or a different image. This control figure can also be used to only show a 2D-like slice of the current scene in x-, y- or z-axis.
-* `MER Control Figure`: Perform [MER analysis](mer-analysis.md) if you have microelectrode recordings. Helpful for instance to note entry and exit of the subthalamic nucleus.
+* `Slice Control Figure`: Opens the anatomy control figure which can be used to add x-, y- and z-slices of an MR image to the scene. You can choose to visualize the MNI template, the pre-/post-op MR images of the current patient or a different image. This control figure can also be used only to show a 2D-like slice of the current scene in the x-, y- or z-axis.
+* `MER Control Figure`: Perform [MER analysis](mer-analysis.md) if you have microelectrode recordings. Helpful for instance to note the entry and exit of the subthalamic nucleus.
 * `Connectivity Visualization`: To perform connectivity analysis with, for instance, a VTA seed.
 * `Cortical Reconstruction Visualization`: Displays the cortex.
 * Different options to set lighting, save screenshots or set the default view.
 * `Save video`: Use this button to export a video of the current scene. This is done based on preferences set in `ea_prefs.m`.
-* The colored squares denote atlas components or added objects. You can add objects such as ROI, tracts either through drag and drop or 'Add Objects' in the menu bar.
+* The colored squares denote atlas components or added objects. You can add objects such as ROI, and tracts either through drag and drop or 'Add Objects' in the menu bar.
