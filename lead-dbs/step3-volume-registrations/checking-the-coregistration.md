@@ -2,14 +2,9 @@
 
 ## Checking coregistration
 
-### Context
-
-1. _Lead runs the coregistration between pre-operative and post-operative images. Depending on the chosen normalization process, you will be shown the coregistration between different images and asked if they are precise enough for you to approve._&#x20;
-2. _This process happens up to three times depending on the available image views. The order of coregistration is as follows:_
-   * _Transversal to coronal view_
-   * _Resulting image to sagittal view_
-   * _Resulting image to pre-operative transversal view_
-   * _Resulting image to the MNI space_
+| **Context**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li><em>Lead runs the coregistration between pre-operative and post-operative images. Depending on the chosen normalization process, you will be shown the coregistration between different images and asked if they are precise enough for you to approve.</em> </li><li><p><em>This process happens up to three times depending on the available image views. The order of coregistration is as follows:</em></p><ul><li><em>Transversal to coronal view</em></li><li><em>Resulting image to sagittal view</em></li><li><em>Resulting image to pre-operative transversal view</em></li><li><em>Resulting image to the MNI space</em></li></ul></li></ul> |
 
 ### How to
 
@@ -34,10 +29,9 @@
 
 ## Checking normalization
 
-### Context
-
-1. _It is very crucial to manually check the normalization quality of your images before starting the reconstruction process. No matter how you normalized your images, you can always set the `Check` checkbox below the `Normalization` checkbox to display slice images of your normalized images that are overlayed with a wire-frame structure that has been generated from the ICBM template._&#x20;
-2. _Only if these results look very precise, i.e. you can see that the wire-frames from the template match the anatomy of the patient's normalized MR images, you should advance to the reconstruction step._
+| **Context**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li><em>It is very crucial to manually check the normalization quality of your images before starting the reconstruction process. No matter how you normalized your images, you can always set the <code>Check</code> checkbox below the <code>Normalization</code> checkbox to display slice images of your normalized images that are overlayed with a wire-frame structure that has been generated from the ICBM template.</em> </li><li><em>Only if these results look very precise, i.e. you can see that the wire-frames from the template match the anatomy of the patient's normalized MR images, you should advance to the reconstruction step.</em></li></ul> |
 
 ### How to
 
