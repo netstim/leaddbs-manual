@@ -52,7 +52,7 @@ If applicable, Lead-DBS also gives you the option to normalize fiber tracking im
 
 ## How to
 
-<figure><img src="../../.gitbook/assets/UI_normalization.png" alt="" width="375"><figcaption><p> UI settings for normalization.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/UI_normalization (1).png" alt="" width="375"><figcaption><p> UI settings for normalization.</p></figcaption></figure>
 
 1. This step follows after coregistration. Select your patient and make sure `Normalize Volumes` and `Check Results` is selected (arrows 1 and 2).
 2. If normalization has been run before, select `Retouch/overwrite approved results` (arrow 4) to get a new instance of coregistration results.
