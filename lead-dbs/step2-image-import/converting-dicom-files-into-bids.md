@@ -12,7 +12,7 @@
 
 Screenshot 23. Patient file - DICOM
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 #### How to: <a href="#_toc96000788" id="_toc96000788"></a>
 
@@ -33,7 +33,7 @@ Screenshot 24. Import Section of the Main Lead DBS GUI
 
 Screenshot 25. Lead-DBS to BIDS conversion
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 | <h4 id="_toc96000789">Output</h4>                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,6 +41,6 @@ Screenshot 25. Lead-DBS to BIDS conversion
 
 Screenshot 26. Lead-DBS to BIDS conversion
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ### &#x20;<a href="#_toc96000790" id="_toc96000790"></a>

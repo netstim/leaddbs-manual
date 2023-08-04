@@ -53,6 +53,7 @@
   * [fMRI-Analysis: Patient Specific Processing](connectomics/connectomic-analyses/fmri.md)
   * [Using Normative Connectomes](connectomics/connectomic-analyses/using-normative-connectomes/README.md)
     * [Discriminative Fibertracts analysis](connectomics/connectomic-analyses/using-normative-connectomes/discriminative-fibertracts-analysis.md)
+  * [Network Mapping Explorer](connectomics/connectomic-analyses/network-mapping-explorer.md)
 * [Lead Connectome Mapper](connectomics/lead-mapper.md)
 
 ## Lead-OR
