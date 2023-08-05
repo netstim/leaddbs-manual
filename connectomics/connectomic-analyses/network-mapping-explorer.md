@@ -53,6 +53,8 @@ Correlation maps model constitutes a model of optimal connectivity. For each pat
 
 <img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">
 
+_Image 2.1 Calculating correlation maps, adapted from Horn, 2022._
+
 </details>
 
 <details>
@@ -63,6 +65,8 @@ In Weighted Average maps, the correlation value assigned to a specific voxel for
 
 <img src="../../.gitbook/assets/image (7).png" alt="" data-size="original">
 
+_Image 2.2 Calculating weighted average maps, adapted from Horn, 2022._
+
 </details>
 
 <details>
@@ -72,6 +76,8 @@ In Weighted Average maps, the correlation value assigned to a specific voxel for
 Combined map is a combination of Correlation and Weighted average results, where respective values for each voxel are multiplied together.
 
 ![](<../../.gitbook/assets/image (8).png>)
+
+_Image 2.3 Calculating Combined Maps from correlation and weighted average results, adapted from Horn, 2022._
 
 </details>
 
@@ -120,5 +126,11 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 | **Output**                                                                                                        |
 | ----------------------------------------------------------------------------------------------------------------- |
 | <ul><li>Connectivity fingerprints.</li><li>Model results.</li><li>Cross-validation correlation results.</li></ul> |
+
+## Publications using the tool:
+
+
+
+##
 
 > Some of the information on this page was taken from "Connectomic Deep Brain Stimulation" by Horn, 2022 and the research publication "Lead-DBS v3.0: Towards local and network-specific imaging in Deep Brain Stimulation" by Neudorfer et al., 2023.
