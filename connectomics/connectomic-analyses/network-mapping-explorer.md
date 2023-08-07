@@ -12,11 +12,11 @@ This page is currently under construction.
 
 ### 1. User Interface
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p><em>Image 1. Network Mapping Explorer user interface.</em></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><em>Image 1. Network Mapping Explorer user interface.</em></p></figcaption></figure>
 
 Network Mapping Explorer builds upon [**Lead group**](../../lead-group/group-analyses-with-lead-dbs.md). For this step, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in Lead group interface). Click on the `Visualize 3D button` inside Lead group and in the 3D viewer window, click on `Add DBS network mapping analysis` button.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Network Mapping Explorer icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Network Mapping Explorer icon.</p></figcaption></figure>
 
 A new window with Network Mapping Explorer user interface pops up. Connectivity fingerprints have to be calculated in the first step. Select the Connectome of your choice from the drop-down selection and press `Calculate` (Image 1). Once it is done, you will be able to continue with your analysis.
 
@@ -32,7 +32,7 @@ We can see the resulting connectivity fingerprints as estimates of how the DBS e
 
 ### 2. Model Setup
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Image 2. Network Mapping Explorer Interactive Model Setup options window.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p>Image 2. Network Mapping Explorer Interactive Model Setup options window.</p></figcaption></figure>
 
 * Model Setup (Image 1, arrow 1) allows you to define methods and parameters to generate the computational model. You can define subcohort selection, dependent variable selection, covariates, statistical tests, option to mirror VTAs/Efields (Image 2, arrows 1-8).
 * Model options can be selected in the drop-down menu (Image 2, arrow 1). For more information consult the following section [**2.1 Model Setup Options**](network-mapping-explorer.md#2.1-model-setup-options-image-2-arrow-1) below.
@@ -51,7 +51,7 @@ We can see the resulting connectivity fingerprints as estimates of how the DBS e
 
 Correlation maps model constitutes a model of optimal connectivity. For each patient, each voxel has a correlation result value represented as a single scalar. Each patient also has a dependent variable assigned, such as clinical improvement. Averaging correlation results of this specific voxel values with the dependent variable across patients results in a correlation map (Image below).
 
-<img src="../../.gitbook/assets/image (6).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (6) (1).png" alt="" data-size="original">
 
 _Image 2.1 Calculating correlation maps, adapted from Horn, 2022._
 
@@ -107,7 +107,7 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 
 ### 3. Visualisation & Thresholding
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption><p>Image 3. Network Mapping Explorer Visualization &#x26; Thresholds window.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption><p>Image 3. Network Mapping Explorer Visualization &#x26; Thresholds window.</p></figcaption></figure>
 
 * The generated model can be visualized and further adjusted during Visualization & Thresholding (Image 1, red arrow 2). Specifically, this step allows thresholding of the generated maps based on a predefined alpha-level and correction for multiple comparison (Image 3, arrows 1&2).
 * You can select to `show voxels` positively or negatively correlated with your selected dependent variable (Image 3, arrow 3), as well as their respective color (Image 3, arrow 5). The surface to visualize on and further smoothing of the resulting model can also be selected (Image 3, arrow 4).
@@ -116,7 +116,7 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 
 ### 4. Crossvalidation & Prediction
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="329"><figcaption><p>Image 4. Network Mapping Explorer Crossvalidation &#x26; Prediction window.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="329"><figcaption><p>Image 4. Network Mapping Explorer Crossvalidation &#x26; Prediction window.</p></figcaption></figure>
 
 * The final step across frameworks is Crossvalidation & Prediction (Image 1, red arrow 3). This step is crucial establishes the validity of generated models within and generalizability across cohorts. Current validation strategies include permutation (Leave-Nothing-Out) based approaches, as well as Leave-One-Patient-Out, Leave-One-Cohort-Out, and k-fold (randomized) cross-validations (Image 4, arrow 1). In addition, it is possible to customize this process and generate predictions for individual patients, as well as predefined subcohorts, cohorts, and sets (Image 4, arrow 2).
 * Drop down window allows you to select the type of spatial correlation on which to select similarity between training and test datasets (Spearman, Pearson, Bend) (Image 2, arrow 3). Mask can be applied, by selecting one of the predefined masks (Gray Matter, Brain, Cortex & Cerebellum, Cortex, Cerebellum, Custom Image, Custom Equation, Gray Matter) (Image 4, arrow 4). Applying the mask during cross-validation will allow using only voxels located within that brain structure to be considered to calculate spatial correlations. For example, using Cerebellum as a mask will keep voxel correlation values associated with cerebellum unchanged, but other voxels, such as voxels in cortex, or striatum will be set to NaN. If Custom Image is selected, UI accepts data in a .nii format and in the same space dimensions as the connectivity fingerprints.
