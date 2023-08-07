@@ -4,11 +4,17 @@
 This page is currently under construction.
 {% endhint %}
 
-| **Context**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <ul><li><em>Network Mapping Explorer</em> can be used to associate observed effects with distributed functional or structural brain networks. This effect could be e.g. clinical (e.g. %-UPDRS-III improvement following STN-DBS) or behavioral (e.g. change in risk-taking behavior or movement speed in a motor task). </li><li>The connectivity profiles (fingerprints) are calculated seeding from active DBS contacts, volume of tissue activated, or estimated electric field. Connectivity estimates can be calculated for each voxel in the brain (sometimes referred to as a voxel-wise parcellation) or to a specific set of larger brain regions. </li><li>Derivation of these estimates involves projections to the cortical surface and calculation of cortico-subcortical connectivity strength by means of voxel-wise correlation.</li></ul> |
+## Context
+
+***
+
+* Network Mapping Explorer can be used to associate observed effects with distributed functional or structural brain networks. This effect could be e.g. clinical (e.g. %-UPDRS-III improvement following STN-DBS) or behavioral (e.g. change in risk-taking behavior or movement speed in a motor task).
+* The connectivity profiles (fingerprints) are calculated seeding from active DBS contacts, volume of tissue activated, or estimated electric field. Connectivity estimates can be calculated for each voxel in the brain (sometimes referred to as a voxel-wise parcellation) or to a specific set of larger brain regions.
+* Derivation of these estimates involves projections to the cortical surface and calculation of cortico-subcortical connectivity strength by means of voxel-wise correlation.
 
 ## How to
+
+***
 
 ### 1. User Interface
 
@@ -123,14 +129,24 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 * Individual fingerprints can also be exports by ticking the box Export Models as NIfTI (Image 4, arrow 5).
 * After pressing `Run`, cross-validations will run automatically and return a graph with the clinical improvement on the x-axis and the network score on the y-axis.&#x20;
 
-| **Output**                                                                                                        |
-| ----------------------------------------------------------------------------------------------------------------- |
-| <ul><li>Connectivity fingerprints.</li><li>Model results.</li><li>Cross-validation correlation results.</li></ul> |
+## Output
 
-## Publications using the tool:
+***
+
+* Connectivity fingerprints.&#x20;
+* Model results.&#x20;
+* Cross-validation correlation results.
+
+## Publications:
+
+***
 
 
 
-##
+## References:
 
-> Some of the information on this page was taken from "Connectomic Deep Brain Stimulation" by Horn, 2022 and the research publication "Lead-DBS v3.0: Towards local and network-specific imaging in Deep Brain Stimulation" by Neudorfer et al., 2023.
+***
+
+> Information on this page was taken from the book"Connectomic Deep Brain Stimulation" by Horn, 2022 and the following research publication:
+>
+> 1. &#x20;Neudorfer C, Butenko K, Oxenford S, Rajamani N, Achtzehn J, Goede L, Hollunder B, Ríos AS, Hart L, Tasserie J, Fernando KB, Nguyen TAK, Al-Fatly B, Vissani M, Fox M, Richardson RM, van Rienen U, Kühn AA, Husch AD, Opri E, Dembek T, Li N, Horn A. Lead-DBS v3.0: Mapping deep brain stimulation effects to local anatomy and global networks. Neuroimage. 2023 Mar;268:119862. doi: 10.1016/j.neuroimage.2023.119862. Epub 2023 Jan 5. PMID: 36610682; PMCID: PMC10144063.
