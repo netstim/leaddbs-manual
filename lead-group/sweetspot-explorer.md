@@ -166,13 +166,15 @@ N-Image represents the number of times it was covered by VTAs from the dataset. 
 * Model results.
 * Cross-validation correlation plot.
 
-## Publications
+## Publications:
 
 ***
 
 
 
 ## References:
+
+***
 
 > Information on this page was taken from the book"Connectomic Deep Brain Stimulation" by Horn, 2022 and the following research publications:&#x20;
 >
