@@ -1,6 +1,6 @@
 # Setup Analysis
 
-After you open the lead group file, here are the steps you should follow to set up your group analysis:
+After you open Lead-Group by typing `lead group` in MATLAB, here are the steps you should follow to set up your group analysis:
 
 <figure><img src="../.gitbook/assets/directory (2).png" alt=""><figcaption><p>Fig. 1</p></figcaption></figure>
 
@@ -14,3 +14,20 @@ After you open the lead group file, here are the steps you should follow to set 
 
 <figure><img src="../.gitbook/assets/selectpatients (1).png" alt=""><figcaption><p>Fig. 3: Patient selection</p></figcaption></figure>
 
+**4)** To enter stimulation parameters, choose the patient you want to work on and click on the "Stimulation Parameters" button in the main GUI. (fig. 4)
+
+**4.1)** From the dropdown menu, select the VTA model that you want to use. You can click on "Settings" button to edit the default conductivity and e-field threshold levels. (fig. 4)
+
+**4.2)** Enter the stimulation amplitude in the yellow box. From the dropdown menu, it is possible to select voltage (V) or current (mA). (fig. 4)
+
+**4.3)** Select the active contacts. (fig. 4)
+
+**4.4)** You can move between patients using "Previous" and "Next Patient" buttons.&#x20;
+
+**4.5)** After entering the parameters, click "Save."&#x20;
+
+
+
+<figure><img src="../.gitbook/assets/stimsettings (1).png" alt=""><figcaption><p>Figure 4: Entering the stimulation settings</p></figcaption></figure>
+
+5\)&#x20;
