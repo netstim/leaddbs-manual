@@ -9,10 +9,10 @@ This page is currently under construction.
 ***
 
 * Fiber Filtering Explorer serves to identify tracts associated with observed changes in clinical outcomes. Currently, the tool derives tracts from a structural connectome or using a pathway model.&#x20;
-* The tool incorporates two streamlines and OSS-DBS.&#x20;
-* The first one uses a combination of binary stimulation volumes and two-sample t-tests. Essentially, the investigated cohort is divided into one group inducing action potentials to streamline and one group having no effect at all.&#x20;
-* The second strategy uses E-fields and correlation coefficients. The weight assigned to a streamline is a correlation coefficient of E-field vector magnitude and clinical improvement.&#x20;
-* The third, OSS-DBS strategy applies two-sample t-tests, calculating binary tract activation using OSS-DBS. Then, the streamlines are weighted by the clinical outcome of patients touching and not touching the streamline.
+* The tool currently allows for three model setups: Stimulation volume based calculations, Electrical field based calculations and, the OSS-DBS approach for obtaining a pathway activation model.&#x20;
+  * The first one uses a combination of binary stimulation volumes and two-sample t-tests. Essentially, the investigated cohort is divided into two groups - one, which induces action potentials to streamline and the other, which has no effect at all.&#x20;
+  * The second strategy uses E-fields and correlation coefficients. The weight assigned to a streamline is a correlation coefficient of E-field vector magnitude and clinical improvement.&#x20;
+  * The OSS-DBS strategy also applies two-sample t-tests by calculating binary tract activation using OSS-DBS. Then, the streamlines are weighted by the clinical outcome of patients touching and not touching the streamline.
 
 {% hint style="info" %}
 Fiber Filtering Explorer helps us understand which specific fiber tracts are associated with maximal clinical improvement.
@@ -30,21 +30,21 @@ Fiber Filtering Explorer builds upon [**Lead group**](broken-reference). For thi
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="56"><figcaption></figcaption></figure>
 
-A new window with Fiber Filtering Explorer user interface pops up. the connectome of your choice from the drop-down selection and press Calculate (Image 1). Once it is done, you will be able to continue with your analysis.
+A new window with Fiber Filtering Explorer user interface pops up. In the first step, you can choose the connectome of your choice from the drop-down selection and press Calculate (Image 1). Once it is done, you will be able to continue with your analysis. To ensure that the Fiber Filtering Explorer detects your connectome of choice, place them inside a folder called "connectomes" within the leaddbs package.
 
 {% hint style="info" %}
-In this analysis stream, you have to once calculate tract metrics for any combination of normative connectomes and statistical metrics. Once this is done, you can explore the results more or less "live."
+In this analysis stream, you have to first calculate tract metrics for the normative connectome. Once this is done, you can explore the results more or less "live."
 {% endhint %}
 
 {% hint style="info" %}
-The time it takes to calculate connected fiber tracts depends on your sample size, normative connectome, or your computer.
+The time it takes to calculate connected fiber tracts depends on your sample size, normative connectome, and the available RAM on your computer.
 {% endhint %}
 
 ### 2. Model Setup
 
 <figure><img src="../../.gitbook/assets/image (12).png" alt="" width="356"><figcaption><p>Image 2. Fiber Filtering Explorer Interactive Model Setup options window.</p></figcaption></figure>
 
-Model Setup (Image 1, arrow 1) allows you to define methods and parameters to generate the computational model. You can determine subcohort selection, dependent variable selection, covariates, statistical tests, an option to mirror VTAs/Efields (Image 2, arrows 1-9).
+Model Setup (Image 2, arrow 1) allows you to define methods and parameters to generate the computational model. For example, you can choose the Correlations/ E-field method of calculating tracts that correlate with the variable of interest (Image 2, arrow 2). The Variable of interest must be defined in the lead-group file previously. The rest of the arrows show the parameter space of the fiber filtering explorer. These are expanded below.
 
 #### 2.1 Model Setup Options
 
