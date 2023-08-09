@@ -54,6 +54,7 @@
   * [Using Normative Connectomes](connectomics/connectomic-analyses/using-normative-connectomes/README.md)
     * [Discriminative Fibertracts analysis](connectomics/connectomic-analyses/using-normative-connectomes/discriminative-fibertracts-analysis.md)
   * [Network Mapping Explorer](connectomics/connectomic-analyses/network-mapping-explorer.md)
+  * [Fiber Filtering Explorer](connectomics/connectomic-analyses/fiber-filtering-explorer.md)
 * [Lead Connectome Mapper](connectomics/lead-mapper.md)
 
 ## Lead-OR
