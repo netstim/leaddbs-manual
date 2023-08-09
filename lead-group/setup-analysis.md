@@ -30,4 +30,22 @@ After you open Lead-Group by typing `lead group` in MATLAB, here are the steps y
 
 <figure><img src="../.gitbook/assets/stimsettings (1).png" alt=""><figcaption><p>Figure 4: Entering the stimulation settings</p></figcaption></figure>
 
-5\)&#x20;
+**5)** Next step is to add your variables of interest. To add a regressor, click the "+" sign below the Variables column. (fig 5.1) A window will pop up that allows you to enter the regressor for each patient and assign a name for this variable. (fig. 5.4) The default is 1 variable per patient. If your variables are per hemisphere, per contact or per contact pair, you can use the dropdown menu and select the suitable option. (fig. 5.5) If you need to change anything, you can click on "Review/Edit." (fig 5.2) Same window will pop up and it is possible to edit the titles and subscores. If you want to remove a variable, simply click on the "x" button. (fig 5.3) It is possible to add multiple variables. If you want to add another variable, repeat this process.
+
+<figure><img src="../.gitbook/assets/addanddeleteregressor (1).png" alt=""><figcaption><p>Figure 5: Adding variables</p></figcaption></figure>
+
+<div>
+
+<figure><img src="../.gitbook/assets/addregressor.png" alt=""><figcaption><p>Fig. 5.4</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/regressoroptions.png" alt=""><figcaption><p>Fig. 5.5</p></figcaption></figure>
+
+</div>
+
+6\) You can assign groups to patients. Select the patient and assign a group number by using the "+" and "-" buttons under the Group column. (fig. 6.1) It is possible to select multiple patients at once and change the group at the same time. It is possible to assign colors to each group by clicking "Group Colors." (6.2) This will later be helpful for better visualization.
+
+<figure><img src="../.gitbook/assets/addnewgroup.png" alt=""><figcaption></figcaption></figure>
+
+Your Lead Group file is now set up! All the information you entered will be saved in the `.mat` file under your leadgroup folder.
