@@ -52,7 +52,14 @@ Model Setup (Image 1, arrow 1) allows you to define methods and parameters to ge
 
 <summary>Two_Sample T-Test / VTAs (Baldermann 2019) / PAM (OSS DBS)</summary>
 
+<img src="../../.gitbook/assets/image (17).png" alt="" data-size="original">
 
+Figure 2.1 T-Test / VTA method
+
+* In this method, the same is done for binary VTAs (which in the case of Lead-DBS are thresholded E-Fields).&#x20;
+* <mark style="color:blue;">Fig. 2.1 A</mark>: Each tract can either be connected or not connected to any VTA. Thus, each single tract splits the group of VTAs (in template space) into two sets.&#x20;
+* <mark style="color:blue;">Fig. 2.1 B</mark>: When calculating Two-sample T-tests between a clinical/behavioral variable (e.g. %-UPDRS-III improvement) observed in the group of connected vs. unconnected VTAs, we will get a T-value for each tract.&#x20;
+* <mark style="color:blue;">Fig. 2.1 C</mark>: We can now use these values (T-scores) to color-code and select tracts for visualization.
 
 </details>
 
@@ -68,7 +75,23 @@ Model Setup (Image 1, arrow 1) allows you to define methods and parameters to ge
 
 <summary>Correlations / E-Fields (Irmen 2020)</summary>
 
+![](<../../.gitbook/assets/image (18).png>)
 
+Figure 2.2 Spearman's Correlations / E-Fields method
+
+* In this method, each single tract is selected from the normative connectome. The statistics are calculated for each tract separately. In the figure above, one example tract can be seen (A). Note how parts of this tract traverse "through" some of the E-Fields estimated in your Lead Group analysis (shown in yellow). They traverse less closely to the ones shown in blue but will still traverse through areas of those E-Fields that have a lower magnitude sum (remember that the E-Field is the estimated vector field denoting changes in Voltage induced by the stimulation. It's magnitude would be the absolute difference of Voltage between two points).&#x20;
+
+<!---->
+
+* <mark style="color:blue;">Fig. 2.2 A</mark>: Each tract is represented as discrete points in space (N x 3 vector if N is the length of the tract; red dots in (A)). The average values at these points for each E-Field (regardless as yellow or blue in A) will be sampled. Depending on your strategy / concept (see below), these values can now be averaged or summed up. Alternatively, you can simply use the peak value (more conforming to the "all or nothing" principle of action potentials) or the 5% peak values. This strategy will lead to one value for each pair of tract and E-Field (N x M if N is number of tracts and M is number of E-Fields; represented as fibsval for each hemisphere in the code).&#x20;
+
+<!---->
+
+* <mark style="color:blue;">Fig. 2.2 B</mark>: When calculating Spearman's correlations between this structure and a clinical/behavioral variable (e.g. %-UPDRS-III improvement), we will get one Spearman's correlation coefficient for each tract.&#x20;
+
+<!---->
+
+* <mark style="color:blue;">Fig. 2.2 C</mark>: We can now use these coefficients (R) to color-code and select tracts for visualization.
 
 </details>
 
@@ -103,8 +126,6 @@ Model Setup (Image 1, arrow 1) allows you to define methods and parameters to ge
 
 
 </details>
-
-
 
 `Tracts connected if peak E-Field Magnitude they traverse is > … V/mm` ...
 
@@ -176,7 +197,7 @@ At last, data can be fit to scores and post-hoc corrected for groups (Figure 4, 
 
 ### 5. Multitract Analysis
 
-
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 5. Fiber Filtering Multitract Analysis window.</p></figcaption></figure>
 
 ## Output
 
