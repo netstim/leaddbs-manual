@@ -32,6 +32,8 @@ After you open Lead-Group by typing `lead group` in MATLAB, here are the steps y
 
 **5)** Next step is to add your variables of interest. To add a regressor, click the "+" sign below the Variables column. (fig 5.1) A window will pop up that allows you to enter the regressor for each patient and assign a name for this variable. (fig. 5.4) The default is 1 variable per patient. If your variables are per hemisphere, per contact or per contact pair, you can use the dropdown menu and select the suitable option. (fig. 5.5) If you need to change anything, you can click on "Review/Edit." (fig 5.2) Same window will pop up and it is possible to edit the titles and subscores. If you want to remove a variable, simply click on the "x" button. (fig 5.3) It is possible to add multiple variables. If you want to add another variable, repeat this process.
 
+Note: alternatively, variables can be added more easily within Matlab, in the Lead group file “M.clinical.vars”, which can be found in the group folder after creating a new group.
+
 <figure><img src="../.gitbook/assets/addanddeleteregressor (1).png" alt=""><figcaption><p>Figure 5: Adding variables</p></figcaption></figure>
 
 <div>
