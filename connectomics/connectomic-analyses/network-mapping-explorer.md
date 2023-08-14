@@ -147,6 +147,7 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 > 4. Irmen, F. et al. (2020) ‘Left Prefrontal Connectivity Links Subthalamic Stimulation with Depressive Symptoms’, Annals of Neurology, 87(6), pp. 962–975. Available at: https://doi.org/10.1002/ana.25734.
 > 5. Li, N. et al. (2021) ‘A Unified Functional Network Target for Deep Brain Stimulation in Obsessive-Compulsive Disorder’, Biological Psychiatry, 90(10), pp. 701–713. Available at: https://doi.org/10.1016/j.biopsych.2021.04.006.
 > 6. Neudorfer, C. et al. (2023) ‘Lead-DBS v3.0: Mapping deep brain stimulation effects to local anatomy and global networks’, NeuroImage, 268, p. 119862. Available at: https://doi.org/10.1016/j.neuroimage.2023.119862.
+> 7. Sobesky, L. et al. (2021) ‘Subthalamic and pallidal deep brain stimulation: are we modulating the same network?’, Brain, 145(1), pp. 251–262. Available at: https://doi.org/10.1093/brain/awab258.
 
 ## References:
 
