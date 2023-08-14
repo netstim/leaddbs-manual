@@ -22,6 +22,8 @@ description: >-
 
 1.4. Press Visualize 2D.
 
+***
+
 ### 2) 3D visualization
 
 2.1. Select all the patients you want to visualize.
@@ -40,9 +42,13 @@ description: >-
 
 ![](<../.gitbook/assets/Screen Shot 2023-08-14 at 12.29.02.png>)**Solid electrodes.**
 
-
+***
 
 ### 3) Clinical Regressors
+
+#### 3.1. Point Clouds, colored by regressor&#x20;
+
+Same as Figure 3 left but check the box “color by regressor” in the 3D options. This box can only be checked if Point-Clouds are selected.
 
 Figure 4: Clinical regressors For Figure 4, the two outputs from figures 5C and 5D were imported in 3D slicer and overlaid on the 7T Template. Color bars in figures 4 and 5 were added manually, but can be plotted by: ea\_plot\_colorbar(cmap, \[], 'h', '', \[1,length(cmap)], {num2str(min(M.isomatrix{1}), '%.2f'),num2str(max(M.isomatrix{1}), '%.2f')}) 6. Figure 5A: Point Clouds, colored by regressor Same as Figure 3 left but check the box “color by regressor” in the 3D options. This box can only be checked if Point-Clouds are selected. 7. Figure 5B: map regressor as interpolated point mesh a. Under Visualization Options check the box “Map regressor to Coords” b. Uncheck the box “Show Active Contacts” c. In 3D options, same as for previous figure and select “Visualize regressor as: Interpolated point mesh” 8. Figure 5C: regressor mapped as isosurface a. Same as previous figure, but select “Visualize regressor as: isosurface” b. In the group folder you can then find the resulting surfaces as nifti files (used for figure 4), named after the regressor and one for each hemisphere Preferences for colormaps can be edited in the 3D settings! 9. Figure 5D: Map regressor to VAT a. Under Visualization Options, instead of “Map regressor to Coords”, select “Map regressor to VAT” b. Together with the plot, a window appears, which allows to change the threshold, alpha and smoothing of the regressor c. The following output, provided for the left hemisphere (right electrodes are mirrored to the left side), can be found in the group folder under statvat\_results-models:
 
