@@ -141,7 +141,12 @@ Two sample t-test is used to compare results between two groups. Lead-DBS allows
 
 ***
 
-
+> 1. Al-Fatly, B. et al. (2019) ‘Connectivity profile of thalamic deep brain stimulation to effectively treat essential tremor’, Brain, 142(10), pp. 3086–3098. Available at: https://doi.org/10.1093/brain/awz236.
+> 2. Horn, A. et al. (2017) ‘Connectivity Predicts deep brain stimulation outcome in Parkinson disease: DBS Outcome in PD’, Annals of Neurology, 82(1), pp. 67–78. Available at: https://doi.org/10.1002/ana.24974.
+> 3. Horn, A. et al. (2019) ‘Deep brain stimulation induced normalization of the human functional connectome in Parkinson’s disease’, Brain, 142(10), pp. 3129–3143. Available at: https://doi.org/10.1093/brain/awz239.
+> 4. Irmen, F. et al. (2020) ‘Left Prefrontal Connectivity Links Subthalamic Stimulation with Depressive Symptoms’, Annals of Neurology, 87(6), pp. 962–975. Available at: https://doi.org/10.1002/ana.25734.
+> 5. Li, N. et al. (2021) ‘A Unified Functional Network Target for Deep Brain Stimulation in Obsessive-Compulsive Disorder’, Biological Psychiatry, 90(10), pp. 701–713. Available at: https://doi.org/10.1016/j.biopsych.2021.04.006.
+> 6. Neudorfer, C. et al. (2023) ‘Lead-DBS v3.0: Mapping deep brain stimulation effects to local anatomy and global networks’, NeuroImage, 268, p. 119862. Available at: https://doi.org/10.1016/j.neuroimage.2023.119862.
 
 ## References:
 
