@@ -46,11 +46,15 @@ The original tutorial can be found [here.](https://ars.els-cdn.com/content/image
 
 ### 3) Clinical Regressors
 
-#### 3.1. Point Clouds, colored by regressor&#x20;
+#### 3.1. Point clouds, colored by regressor&#x20;
 
 ![](<../.gitbook/assets/image (20).png>)3.1. Active contacts colored by regressor intensity.
 
-* Check the box “color by regressor” in the 3D options. This box can only be checked if Point-Clouds are selected.
+* From 3D Settings, select point clouds and check the box “color by regressor”. This box can only be checked if Point-Clouds are selected.
+* ![](<../.gitbook/assets/Screen Shot 2023-08-14 at 16.22.42.png>)
+* Preferences for the colormaps can be edited by clicking "Colormap" in 3D Settings.
+
+![](<../.gitbook/assets/Screen Shot 2023-08-14 at 16.23.11.png>)
 
 #### 3.2. Map regressor as interpolated point mesh&#x20;
 
@@ -62,26 +66,16 @@ Fig. 3.2. The regressor mapped to an equidistant point grid after solving a scat
 * Uncheck the box “Show Active Contacts”&#x20;
 * In 3D options, select “Visualize regressor as: Interpolated point mesh”&#x20;
 
+<figure><img src="../.gitbook/assets/mapregressortocoords.png" alt=""><figcaption></figcaption></figure>
+
 #### 3.3. Map regressor as isosurface
 
 ![](<../.gitbook/assets/image (22).png>)
 
 Fig. 3.3. The equidistant grid in the previous step can be thresholded and visualized as a 3D surface.
 
-* Select “Visualize regressor as: isosurface”
+* From 3D settings, select “Visualize regressor as: isosurface”
 * In the group folder you can then find the resulting surfaces as nifti files, named after the regressor and one for each hemisphere.&#x20;
-* Preferences for colormaps can be edited in the 3D settings!&#x20;
-
-
-
-9\. Figure 5D: Map regressor to VAT a. Under Visualization Options, instead of “Map regressor to Coords”, select “Map regressor to VAT” b. Together with the plot, a window appears, which allows to change the threshold, alpha and smoothing of the regressor c. The following output, provided for the left hemisphere (right electrodes are mirrored to the left side), can be found in the group folder under statvat\_results-models:
-
-* N image: values indicate the sum of VTAs in each voxel
-* Mean image
-* Median image
-* T image: sum of T-values from one-sample t-tests (sum of clinical regressor vs. 0) Plus thresholded versions of the same named \_nthresh: in ea\_writeMvat, a threshold can be defined (default 0.1) as the percentage of the maximum N.
-
-"First, most simply, all active contacts were visualized as a point cloud and colored by the variable intensity (section S1.6 in the walkthrough tutorial). Second, the improvement variable was mapped to an equidistant point grid after solving a scattered interpolant based on the original values and active coordinates (section S1.7). Third, this equidistant grid was visualized as an isovolume, i.e. the grid was thresholded and visualized as a 3D-surface (section S1.8). These first three options mapped clinical improvement to the active contact coordinates. A fourth option is available that instead mapped these values to VTAs (section S1.9). Here, each binary VTA was weighted by its corresponding improvement value and, for each voxel, a T-value was estimated. The resulting volume was thresholded based on visual inspection at an arbitrary T-value (10.56). This value was visually chosen to obtain a “sweet-spot” with small anatomical extent."
 
 ## References
 
