@@ -20,7 +20,9 @@ The original tutorial can be found [here.](https://ars.els-cdn.com/content/image
 
 ![Figure 1b](../.gitbook/assets/2dsettings.png)
 
-1.4. Press Visualize 2D.
+1.4. Press Visualize 2D. The results will also be saved under leadgroup/groupanalysisname/export/2D folder.
+
+![](../.gitbook/assets/2dfolder.png)
 
 ***
 
