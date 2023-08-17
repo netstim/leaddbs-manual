@@ -24,11 +24,11 @@ If you used previous versions of Lead-DBS before and see errors when you run it 
 
 If Lead-DBS subfolders are somehow not completely added to MATLAB search path, you can run \`ea\_setpath\` to update the path.
 
-## Installation via Github
+## Installation via GitHub
 
 For more experienced users or developers who'd also wish to modify the code and potentially improve Lead-DBS, there is an alternative way of installation:
 
-1. Clone the Lead-DBS repository from [here](https://github.com/leaddbs/leaddbs).
+1. Clone the Lead-DBS repository from [here](https://github.com/leaddbs/leaddbs) and switch to `develop` branch.
 2. Download the necessary [data](http://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Set MATLAB search path as described in [#normal-installation](installation.md#normal-installation "mention").
 
