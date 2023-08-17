@@ -9,7 +9,7 @@ This page is currently under construction.
 ***
 
 * Sweetspot Explorer allows users to identify local clusters that are associated with the clinical outcome following the DBS, e.g. % UPDRS-III improvement following STN-DBS for Parkinson's disease.&#x20;
-* It has been developed to map anatomical hot- and cold-spots within DBS targeted region.&#x20;
+* It has been developed to map anatomical hot- and cold-spots within DBS targeted regions.&#x20;
 * The Sweetspot Explorer explains the outcome based on the stimulation location, which can be determined in several ways: as coordinates of active electrodes, weighted by the distance from the active electrode via a Gaussian function, as a binary VTA (thresholded here at 200V/m), or weighted by the strength of the electric field (thresholded here at 100V/m).
 
 ## How to
@@ -20,25 +20,25 @@ This page is currently under construction.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Image 1. Sweetspot Explorer user interface.</p></figcaption></figure>
 
-Sweetspot Explorer builds upon Lead group and therefore, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in Lead group interface) in order to use it. Click on the `Visualize 3D` button inside Lead group and in the 3D viewer window, click on `Add sweetspot analysis` button.
+Sweetspot Explorer builds upon the Lead group and therefore, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in the Lead group interface) in order to use it. Click on the `Visualize 3D` button inside the Lead group and in the 3D viewer window, click on `Add sweetspot analysis` the button.
 
 <figure><img src="../.gitbook/assets/image.png" alt="" width="52"><figcaption></figcaption></figure>
 
-A new window with Sweetspot Explorer user interface pops up, offering a selection of methods for the further analysis. This window can be divided into 3 subparts: `Interactive Model Setup`, `Visualization & Thresholds`, and `Crossvalidation & Prediction` (Figure 1).
+A new window with the Sweetspot Explorer user interface pops up, offering a selection of methods for further analysis. This window can be divided into 3 subparts: `Interactive Model Setup`, `Visualization & Thresholds`, and `Crossvalidation & Prediction` (Figure 1).
 
 ### 2. Model Setup
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="" width="345"><figcaption><p>Image 2. Sweetspot Explorer Interactive Model Setup options window.</p></figcaption></figure>
 
-* `Interactive Model Setup` (Image 1, arrow 1) allows users to define methods and parameters to generate the computational model. One can define the analysis level, subcohort selection, dependent variable selection, covariates, statistical tests, option to mirror VTAs/Efields (Image 2, arrows 1-8).
-* `Analysis Level` - allows users to simply select whether they want to use VTAs or E-Fields for their model. VTAs are stored in binary format \[0 and 1], where all voxels within the VTA (voxels labeled as 1) are stimulated and all the voxels outside (voxels labeles as 0) are not stimulated. E-Fields are stored in a continuous fashion and contain information on the spatial distribution of the voltage. Based on the selection here, further selection of options in "`Inspire Analysis by ...`" (Figure 2, arrow 1) will be determined.
+* `Interactive Model Setup` (Image 1, arrow 1) allows users to define methods and parameters to generate the computational model. One can define the analysis level, subcohort selection, dependent variable selection, covariates, statistical tests, and the option to mirror VTAs/Efields (Image 2, arrows 1-8).
+* `Analysis Level` - allows users to simply select whether they want to use VTAs or E-Fields for their model. VTAs are stored in binary format \[0 and 1], where all voxels within the VTA (voxels labelled as 1) are stimulated and all the voxels outside (voxels labelled as 0) are not stimulated. E-Fields are stored in a continuous fashion and contain information on the spatial distribution of the voltage. Based on the selection here, a further selection of options in "`Inspire Analysis by ...`" (Figure 2, arrow 1) will be determined.
 * `VTA/E-Field Threshold [V/mm]` - determines what effect will be considered as “stimulating” (Figure 2, arrow 2).
 * `Voxels covered` - Allows users to define the VTA/E-Field threshold required for voxels to be included in the model (Figure 2, arrow 3).
 * `Variable of Interest (VOI)`, `Normalize & Zero-Center VOI` & `Clean VOI from the following covariates` - (Figure 2, arrows 4-6)
 
 #### 2.1 Inspire Analysis by ...
 
-These options allow users to select one of the methods from previously published literature, or also create your custom model. The descriptions below were adapted from Dembek et al., 2022 and Elias et al., 2021.
+These options allow users to select one of the methods from previously published literature, or also create a custom model. The descriptions below were adapted from Dembek et al., 2022 and Elias et al., 2021.
 
 <details>
 
@@ -145,18 +145,18 @@ N-Image represents the number of times the voxel was covered by VTAs from the da
 
 <figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Image 3. Sweetspot Explorer Visualization &#x26; Thresholds window.</p></figcaption></figure>
 
-* The generated sweet and sour spots can be visualized and further adjusted during `Visualization & Thresholding` (Image 1, red arrow 2). Specifically, this step allows thresholding of the generated maps based on a predefined alpha-level and correction for multiple comparison (Image 3, arrows 1&2).
-* Users can select to visualize voxels positively or negatively correlated with your selected dependent variable (Image 3, arrow 3), as well as change their color (Image 3, arrow 4).
-* For more advanced post-hoc analysis, the option to export the generated maps in the form of NIfTI files is also available, by clicking on `Export as NIfTI` (Image 3, arrow 5). These NIfTI images can then be visualized and processed in Slicer. For further information please discuss [sweet-sour-spot.md](../appendix/using-slicer/sweet-sour-spot.md "mention").
-* After users finish the selection of all settings, pressing `Refresh View` or alternatively, ticking the `Auto-Refresh` box will refresh the view automatically (Image 3, arrow7).
+* The generated sweet and sour spots can be visualized and further adjusted during `Visualization & Thresholding` (Image 1, red arrow 2). Specifically, this step allows thresholding of the generated maps based on a predefined alpha level and correction for multiple comparisons (Image 3, arrows 1&2).
+* Users can select to visualize voxels positively or negatively correlated with your selected dependent variable (Image 3, arrow 3) and change their color (Image 3, arrow 4).
+* For more advanced post-hoc analysis, the option to export the generated maps in the form of NIfTI files is also available, by clicking on `Export as NIfTI` (Image 3, arrow 5). These NIfTI images can then be visualized and processed in Slicer. For further information please consult [sweet-sour-spot.md](../appendix/using-slicer/sweet-sour-spot.md "mention").
+* After users finish the selection of all settings, pressing `Refresh View` or alternatively, ticking the `Auto-Refresh` box will refresh the view automatically (Image 3, arrow 7).
 
 ### 4. Crossvalidation & Prediction
 
 <figure><img src="../.gitbook/assets/image (5).png" alt="" width="375"><figcaption><p>Image 4. Network Mapping Explorer Crossvalidation &#x26; Prediction window.</p></figcaption></figure>
 
 * The final step across frameworks is `Crossvalidation & Prediction` (Image 1, red arrow 3). This step is crucial in establishing the validity of generated models within and generalizability across cohorts. Current validation strategies include permutation (Leave-Nothing-Out) approaches, as well as Leave-One-Patient-Out, Leave-One-Cohort-Out, and k-fold (randomized) cross-validations (Image 4, arrow 1). In addition, it is possible to customize this process and generate predictions for individual patients, as well as predefined subcohorts, cohorts, and sets (Image 4, arrow 2).
-* Drop down window allows users to select strategy, based on which predictions will be made of. The current selection offers using mean of scores, sum of scores, peak of scores, and peak 5% of scores (Image 4, arrow 3).
-* The results can also be post-hoc corrected for group, if that option is selected (Image 4, arrow 4).
+* The drop-down window allows users to select a strategy, based on which predictions will be made. The current selection uses the mean of scores, the sum of scores, the peak of scores, and the peak of 5% of scores (Image 4, arrow 3).
+* If that option is selected, the results can also be post-hoc corrected for the group (Image 4, arrow 4).
 
 ## Output
 
@@ -170,7 +170,9 @@ N-Image represents the number of times the voxel was covered by VTAs from the da
 
 ***
 
-
+> 1. Horn, A. _et al._ (2022) ‘Optimal deep brain stimulation sites and networks for cervical vs. generalized dystonia’, _Proceedings of the National Academy of Sciences_, 119(14), p. e2114985119. Available at: https://doi.org/10.1073/pnas.2114985119.
+> 2. Neudorfer, C. _et al._ (2023) ‘Lead-DBS v3.0: Mapping deep brain stimulation effects to local anatomy and global networks’, _NeuroImage_, 268, p. 119862. Available at: https://doi.org/10.1016/j.neuroimage.2023.119862.
+> 3. Ríos, A.S. _et al._ (2022) ‘Optimal deep brain stimulation sites and networks for stimulation of the fornix in Alzheimer’s disease’, _Nature Communications_, 13, p. 7707. Available at: https://doi.org/10.1038/s41467-022-34510-3.
 
 ## References:
 
