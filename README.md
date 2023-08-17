@@ -6,14 +6,13 @@ This user guide is intended to cover most use cases. It pairs well with the prim
 
 **Quick history:** Lead-DBS was initially developed at the [Movement Disorders Unit of Andrea Kühn](http://www.neuromodulation.berlin), Department of Neurology, Charité – University Medicine (CCM), Berlin, Germany. Since 2019, the [Network Stimulation Laboratory of Andreas Horn ](http://www.netstim.berlin)has been coordinating the development.
 
-**Other useful links:** [Lead-DBS website](https://github.com/netstim/leaddbs), [Lead-DBS on Github](https://github.com/netstim/leaddbs), [Lead-DBS on Twitter](https://twitter.com/leaddbs),&#x20;
+**Other useful links:** [Lead-DBS website](https://github.com/netstim/leaddbs), [Lead-DBS on Github](https://github.com/netstim/leaddbs), [Lead-DBS on Twitter](https://twitter.com/leaddbs),
 
 ## Key Features
 
-* Linear and nonlinear normalization of MRI and CT images to MNI space
+* Linear and nonlinear registration of MRI and CT images
 * Reconstruction of the electrode trajectories
 * Manual correction of the electrode localization
 * Visualization of results in 2D slice views
 * Visualization of a 3D model showing DBS electrodes and their target areas
 * Calculation of the Volume of Activated Tissue (VAT) and visualization of the structural connectivity from the VAT to other brain areas
-
