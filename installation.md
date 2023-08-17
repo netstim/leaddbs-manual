@@ -7,9 +7,8 @@
 * MATLAB Image Processing Toolbox
 * MATLAB Signal Processing Toolbox
 * MATLAB Statistics and Machine Learning Toolbox
-* MATLAB Curve Fitting Toolbox (Optional)
-* MATLAB Parallel Computing Toolbox (Optional)
-* MATLAB Deep Learning Toolbox (Optional)
+* MATLAB Curve Fitting Toolbox (optional)
+* MATLAB Parallel Computing Toolbox (optional)
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/)
 
 ## Normal installation
