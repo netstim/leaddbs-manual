@@ -17,3 +17,7 @@ This user guide is intended to cover most use cases. It pairs well with the prim
 * Visualization of a 3D model showing DBS electrodes and their target areas
 * Calculation of the Volume of Activated Tissue (VAT) and visualization of the structural connectivity from the VAT to other brain areas
 * Group analysis
+
+## Dependencies
+
+Lead-DBS is a collection of tools for the purpose of DBS electrode reconstructions and related processing. The core job of our development team is to find and integrate the best neuroimaging tools available within the open-source community and develop our own code where no good code can be found. Thus, Lead-DBS heavily depends on other tools that should be referenced properly if used for research projects. Please find a list of tools used by Lead-DBS [here](http://www.lead-dbs.org/?page\_id=1126).

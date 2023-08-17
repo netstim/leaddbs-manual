@@ -2,11 +2,7 @@
 
 * [Introduction](README.md)
 * [How to contribute to Lead-DBS](ways-to-contribute-to-lead-dbs.md)
-
-## Installation
-
-* [Dependencies](installation/dependencies.md)
-* [Installation](installation/installation.md)
+* [Installation](installation.md)
 
 ## Lead-DBS
 
