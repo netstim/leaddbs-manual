@@ -16,3 +16,4 @@ This user guide is intended to cover most use cases. It pairs well with the prim
 * Visualization of results in 2D slice views
 * Visualization of a 3D model showing DBS electrodes and their target areas
 * Calculation of the Volume of Activated Tissue (VAT) and visualization of the structural connectivity from the VAT to other brain areas
+* Group analysis
