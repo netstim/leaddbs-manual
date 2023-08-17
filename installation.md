@@ -14,7 +14,7 @@
 ## Normal installation
 
 1. Download Lead-DBS from [here](https://www.lead-dbs.org/download/).
-2. Extract the downloaded zip into your MATLAB toolbox folder. For example, it can be in your home folder under `Documents/MATLAB/toolbox`.  Please avoid extracting Lead-DBS into MATLAB installation folder or other folder which requires `sudo` or `administrator` permission.
+2. Extract the downloaded zip into your MATLAB toolbox folder. For example, it can be in your home folder under `Documents/MATLAB/toolbox`.  Please avoid extracting Lead-DBS into MATLAB installation folder or other folder which requires `sudo` or `administrator` permission. An installation directory path with spaces should also be avoided.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder and choose `Add to Path` -> `Selected Folders and Subfolders` .
 
