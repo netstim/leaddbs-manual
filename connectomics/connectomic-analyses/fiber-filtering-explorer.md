@@ -207,6 +207,11 @@ At last, data can be fit to scores and post-hoc corrected for groups (Figure 4, 
 
 ***
 
+> 1. Hollunder, B. _et al._ (2022) ‘Toward personalized medicine in connectomic deep brain stimulation’, _Progress in Neurobiology_, 210, p. 102211. Available at: https://doi.org/10.1016/j.pneurobio.2021.102211.
+> 2. Horn, A. _et al._ (2022) ‘Optimal deep brain stimulation sites and networks for cervical vs. generalized dystonia’, _Proceedings of the National Academy of Sciences_, 119(14), p. e2114985119. Available at: https://doi.org/10.1073/pnas.2114985119.
+> 3. Neudorfer, C. _et al._ (2023) ‘Lead-DBS v3.0: Mapping deep brain stimulation effects to local anatomy and global networks’, _NeuroImage_, 268, p. 119862. Available at: https://doi.org/10.1016/j.neuroimage.2023.119862.
+> 4. Ríos, A.S. _et al._ (2022) ‘Optimal deep brain stimulation sites and networks for stimulation of the fornix in Alzheimer’s disease’, _Nature Communications_, 13, p. 7707. Available at: https://doi.org/10.1038/s41467-022-34510-3.
+
 ## References:
 
 > Information on this page was taken from the book "Connectomic Deep Brain Stimulation" by Horn, 2022 and the following research publication:
