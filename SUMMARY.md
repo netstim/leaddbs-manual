@@ -31,7 +31,6 @@
 * [7. Visualization](lead-dbs/step7-visualization/README.md)
   * [MER Analysis](lead-dbs/step7-visualization/mer-analysis.md)
 * [Reconstruction Statistics](lead-dbs/reconstruction-statistics.md)
-* [Untitled](lead-dbs/untitled.md)
 
 ## Lead-Group
 
