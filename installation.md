@@ -29,7 +29,7 @@ If Lead-DBS subfolders are somehow not completely added to MATLAB search path, y
 For more experienced users or developers who'd also wish to modify the code and potentially improve Lead-DBS, there is an alternative way of installation:
 
 1. Clone the Lead-DBS repository from [here](https://github.com/leaddbs/leaddbs) and switch to `develop` branch.
-2. Download the necessary [data](http://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
+2. Download the necessary [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` to set the path.&#x20;
 
