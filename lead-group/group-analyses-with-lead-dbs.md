@@ -3,7 +3,7 @@
 {% hint style="info" %}
 Lead group is best documented by [this paper](https://www.biorxiv.org/content/10.1101/2020.01.14.904615v1) and the accompanying walkthrough tutorial found on [OSF](https://osf.io/kj456/).
 
-An older resource are [these walkthrough slides](http://www.lead-dbs.org/docs/tutorials/group\_analyses\_horn.pdf)
+An older resource are [these walkthrough slides](https://www.lead-dbs.org/docs/tutorials/group\_analyses\_horn.pdf)
 {% endhint %}
 
 Once the coregistration, normalization and reconstruction steps have been performed for a group of patients, you can load these in the group GUI, which you can start by entering

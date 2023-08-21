@@ -12,7 +12,7 @@
 
 <summary>Technical background information</summary>
 
-In theory, subcortical refines can be applied together with coarse refines "in one go". We used this strategy in earlier versions of Lead-DBS. However, the process was not robust enough and could not be implemented using all software available in Lead-DBS, in the same way. Furthermore and especially when dealing with postoperative CTs or significant electrode artifacts on MRI, many users sometimes manually apply a whole-brain coregistration in different software (such as [3D Slicer](http://slicer.org\)) if the options in Lead-DBS do not generate satisfactory results). That's why we chose to include this refine step at the very end of our pipeline. First ensure an as good as possible whole-brain coregistration and normalization then apply this subcortical refine step to the data.
+In theory, subcortical refines can be applied together with coarse refines "in one go". We used this strategy in earlier versions of Lead-DBS. However, the process was not robust enough and could not be implemented using all software available in Lead-DBS, in the same way. Furthermore and especially when dealing with postoperative CTs or significant electrode artifacts on MRI, many users sometimes manually apply a whole-brain coregistration in different software (such as [3D Slicer](https://slicer.org\)) if the options in Lead-DBS do not generate satisfactory results). That's why we chose to include this refine step at the very end of our pipeline. First ensure an as good as possible whole-brain coregistration and normalization then apply this subcortical refine step to the data.
 
 We estimate the refine transform on interpolated and resliced data which is usually not the best approach. The process is _much_ more robust and universal this way. This practice allows us to support all the linear transform methods implemented in Lead-DBS (SPM, FSL, ANTs, BRAINSFit or hybrid solutions) in the same way. To account for the disadvantages of using coregistered and resliced data to estimate transforms, we apply the transform to non-discretized points in float format and use high resolution data throughout the whole pipeline.
 
@@ -22,7 +22,7 @@ As a side note:\
 _This processing step was completely implemented into Lead-DBS during the_ [_2017 brainhack global event at MIT in Boston_](https://brainhack-boston.github.io)_._\
 _Many thanks go out to the organizers of the event – as always @ brainhack, it was phenomenal._
 
-[![](../../.gitbook/assets/brainhack.png)](http://www.brainhack.org)
+[![](../../.gitbook/assets/brainhack.png)](https://www.brainhack.org)
 
 ###
 
@@ -40,7 +40,7 @@ In our example, let's see the use of the `Coarse Mask`. This will produce the fo
 ![Image 4. Examle of brainshift correction using Coarse + Fine Mask.](../../.gitbook/assets/results\_brainshift.png)
 
 3. As highlighted by the yellow arrows, some regions better overlap in this refined transform. The estimated transformation matrix is printed in the top right corner of the figure.
-4. You can use a slice viewer (such as e.g. [3D Slicer](http://slicer.org\)) to further examine results in detail. The relevant files will be in derivatives/leaddbs/`patient folder/brainshift/anat.`
+4. You can use a slice viewer (such as e.g. [3D Slicer](https://slicer.org\)) to further examine results in detail. The relevant files will be in derivatives/leaddbs/`patient folder/brainshift/anat.`
 5. If you think the approach improved results, click `Approve & Close` to apply the transform to your DBS electrode reconstructions. If not, click `Disapprove & Close`. Alternatively, you can change the settings to `No Mask` or `Coarse + Fine Mask` and press `(Re-)compute coregistration using...` .
 
 | **Output**                                                                                                                                                                                                                                                                                                                                                                                           |

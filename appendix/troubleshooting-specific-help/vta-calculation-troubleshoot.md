@@ -27,7 +27,7 @@ The following troubleshooting steps could be tried in case of such failures:
 
 \[2] Qianqian Fang and David Boas, "Tetrahedral mesh generation from volumetric binary and gray-scale images," Proceedings of IEEE International Symposium on Biomedical Imaging 2009, pp. 1142-1145, 2009&#x20;
 
-\[3] Hang Si. 2015. "[_TetGen, a Delaunay-Based Quality Tetrahedral Mesh Generator_](http://doi.acm.org/10.1145/2629697)". ACM Trans. on Mathematical Software. **41** (2), Article 11 (February 2015), 36 pages. DOI=10.1145/2629697 http://doi.acm.org/10.1145/2629697
+\[3] Hang Si. 2015. "[_TetGen, a Delaunay-Based Quality Tetrahedral Mesh Generator_](https://doi.acm.org/10.1145/2629697)". ACM Trans. on Mathematical Software. **41** (2), Article 11 (February 2015), 36 pages. DOI=10.1145/2629697 https://doi.acm.org/10.1145/2629697
 
 \[4] Baniasadi M, Proverbio D, Gonçalves J, Hertel F, Husch A. FastField: An open-source toolbox for efficient approximation of deep brain stimulation electric fields. Neuroimage. 2020 Dec;223:117330. doi: 10.1016/j.neuroimage.2020.117330. Epub 2020 Sep 2. PMID: 32890746.
 

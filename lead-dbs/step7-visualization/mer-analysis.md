@@ -15,4 +15,4 @@ Start the MER Control Figure inside the 3D viewer.
    * `l = "LFP"`
    * `t = "Top"`
    * `b = "Bottom"`
-5. Use the`export markers`[![](https://github.com/leaddbs/leaddbs/raw/master/icons/export.png)](https://github.com/leaddbs/leaddbs/blob/master/icons/export.png)button in the MER Control GUI to save markers as a`.mat`file.
+5. Use the`export markers`[![](https://github.com/netstim/leaddbs/raw/master/icons/export.png)](https://github.com/netstim/leaddbs/blob/master/icons/export.png)button in the MER Control GUI to save markers as a`.mat`file.

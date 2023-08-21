@@ -2,7 +2,7 @@
 
 Lead-DBS comes pre-installed with a list of different atlas sets (see [here for an overview](https://www.lead-dbs.org/helpsupport/knowledge-base/atlasesresources/atlases/)). However, depending on the needs of your study, other subcortical atlases may be installed.  Atlases that are available in standard NIfTI format (.nii or .nii.gz extensions) and are available in MNI space can be used within Lead-DBS with little to no effort. If atlases come in a different space, you may need to dig into the spaces feature of Lead-DBS (unfortunately documentation on this is scarce. Contact us on [Slack](https://leadsuite.slack.com) and/or [see this page for more information](https://www.lead-dbs.org/about-the-mni-spaces/)).
 
-On [this page](http://www.lead-dbs.org/?page\_id=45) you can find information about how and where to obtain other subcortical atlases suitable for 2D/3D-visualization using Lead-DBS.
+On [this page](https://www.lead-dbs.org/?page\_id=45) you can find information about how and where to obtain other subcortical atlases suitable for 2D/3D-visualization using Lead-DBS.
 
 If an atlas you know of is missing on this page, please contact us so we can add it to our list. If possible, we are also interested in distributing other subcortical atlases alongside the toolbox if they are made available for distribution.
 

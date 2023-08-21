@@ -28,7 +28,7 @@ If Lead-DBS subfolders are somehow not completely added to MATLAB search path, y
 
 For more experienced users or developers who'd also wish to modify the code and potentially improve Lead-DBS, there is an alternative way of installation:
 
-1. Clone the Lead-DBS repository from [here](https://github.com/leaddbs/leaddbs) and switch to `develop` branch.
+1. Clone the Lead-DBS repository from [here](https://github.com/netstim/leaddbs) and switch to `develop` branch.
 2. Download the necessary [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` to set the path.&#x20;
@@ -43,7 +43,7 @@ Several add-ons are available which can be installed manually from inside Lead-D
 
 ## Disclaimer
 
-We try to maintain compatibility to Linux, masOS and Windows, but given our small team, not all functions are well tested on all OSs ([fork us on github and join our team to improve that](http://www.github.com/leaddbs/leaddbs)).
+We try to maintain compatibility to Linux, masOS and Windows, but given our small team, not all functions are well tested on all OSs ([fork us on GitHub and join our team to improve that](https://www.github.com/netstim/leaddbs)).
 
 ## **Useful tools**
 
@@ -51,7 +51,7 @@ DICOM viewer [Aliza](https://www.aliza-dicom-viewer.com)
 
 NIfTI viewer [MRIcron](https://www.nitrc.org/projects/mricron/), [Mango](https://mangoviewer.com/mango.html)
 
-[DTI-TK Quicklook plugin](http://dti-tk.sourceforge.net/pmwiki/pmwiki.php?n=QuicklookPlugin.Main) (macOS)
+[DTI-TK Quicklook plugin](https://dti-tk.sourceforge.net/pmwiki/pmwiki.php?n=QuicklookPlugin.Main) (macOS)
 
 [3D Slicer](https://www.slicer.org)
 
