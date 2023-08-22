@@ -52,7 +52,7 @@ If you need a more detailed investigation of the normalization, you can load the
 {% endhint %}
 
 3. If you are not happy with the fit, you can close the window and then click on `Refine Atlas Fit` (Image 3, arrow 1). A new window which allows you to check the normalization of specific structures for your patient will appear. It shows you STN, but also GPi, as well as other structures which you can choose. It allows you to also change the atlas from a list.&#x20;
-4. If you are not happy with the normalization results, you can re-run normalization by clicking on `(Re-) compute coregistration using ...` (Image 3, arrow 3). You can also click on `Disapprove & Close` and re-run the whole analysis again with different settings. Also check our section on [refine-atlas-fit-with-warpdrive.md](refine-atlas-fit-with-warpdrive.md "mention"), which you can use to manually edit normalization results.
+4. If you are not happy with the normalization results, you can re-run normalization by clicking on `(Re-) compute coregistration using ...` (Image 3, arrow 3). You can also click on `Disapprove & Close` and re-run the whole analysis again with different settings. Also check [WarpDrive](https://github.com/netstim/SlicerNetstim/tree/master/WarpDrive), which you can use to manually edit normalization results.
 
 <figure><img src="../../.gitbook/assets/detailView_normalization.png" alt="" width="375"><figcaption><p>Image 4: Detail Viewer to assess quality ofnormalization.</p></figcaption></figure>
 

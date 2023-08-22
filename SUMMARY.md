@@ -16,7 +16,6 @@
   * [Normalizing the Images](lead-dbs/step3-volume-registrations/normalization-of-images.md)
   * [Brainshift Correction](lead-dbs/step3-volume-registrations/subcortical-refine-post-to-pre-transforms.md)
   * [Checking the Coregistration and Normalization](lead-dbs/step3-volume-registrations/checking-the-coregistration.md)
-  * [Refine Atlas Fit with WarpDrive](lead-dbs/step3-volume-registrations/refine-atlas-fit-with-warpdrive.md)
 * [4. (optional) Surface Reconstruction](lead-dbs/step4-optional-surface-reconstruction.md)
 * [5. (optional) Reconstruction of Electrode Trajectories](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/README.md)
   * [Orientation of Directional Leads](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/determining-the-orientation-of-directional-leads/README.md)

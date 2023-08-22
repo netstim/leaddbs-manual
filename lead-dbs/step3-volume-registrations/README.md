@@ -12,6 +12,6 @@ Second, you can choose to normalize the volumes to the MNI nonlinear 2009b space
 
 Third, brainshift correction is recommended to improve lead localization (red arrow 3). Due to the lead implantation, brain shift is highly likely, i.e., the brain moves with respect to the skull. More information about the correction is on[ this page](subcortical-refine-post-to-pre-transforms.md).
 
-Finally, you can approve, recalculate or reject the registration and normalization results visually by ticking **Check Results. Warp Drive** allows for fine manual adjustments to better match, for instance, an atlas fit of the subthalamic nucleus with the patient-specific nucleus (red arrows 4 & 5). See [this page](refine-atlas-fit-with-warpdrive.md) for more information on WarpDrive.
+Finally, you can approve, recalculate or reject the registration and normalization results visually by ticking **Check Results. Warp Drive** allows for fine manual adjustments to better match, for instance, an atlas fit of the subthalamic nucleus with the patient-specific nucleus (red arrows 4 & 5). See [here](https://github.com/netstim/SlicerNetstim/tree/master/WarpDrive) for more information on WarpDrive.
 
 The following subpages provide more technical detail.
