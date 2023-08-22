@@ -24,7 +24,7 @@ _Many thanks go out to the organizers of the event – as always @ brainhack, it
 
 [![](../../.gitbook/assets/brainhack.png)](https://www.brainhack.org)
 
-###
+####
 
 </details>
 
@@ -33,7 +33,7 @@ _Many thanks go out to the organizers of the event – as always @ brainhack, it
 <figure><img src="../../.gitbook/assets/UI_brainshiftCorrection.png" alt="" width="375"><figcaption><p>Image 3. UI settings for brainshift correction.</p></figcaption></figure>
 
 1. To run brainshift correction, you first go through rough coregistration and normalization to template space. Select the patient (arrow 1), tick `Brainshift correction` with a mask, `Check Results` and press `Run`.
-2. To estimate a transform, choose either `No Mask`, `Coarse Mask` or `Coarse + Fine Mask`. `No Mask` will just use the cropped images to estimate the transformation and is not recommended.  By choosing the `Coarse Mask`, a larger mask will be applied. If you choose to use both, `Coarse + Fine Mask.` The coarse mask (blue mask in the Schönecker publication within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) will be applied first, followed by the finer (yellow within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) mask.
+2. To estimate a transform, choose either `No Mask`, `Coarse Mask` or `Coarse + Fine Mask`. `No Mask` will just use the cropped images to estimate the transformation and is not recommended. By choosing the `Coarse Mask`, a larger mask will be applied. If you choose to use both, `Coarse + Fine Mask.` The coarse mask (blue mask in the Schönecker publication within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) will be applied first, followed by the finer (yellow within the [#context](subcortical-refine-post-to-pre-transforms.md#context "mention") panel) mask.
 
 In our example, let's see the use of the `Coarse Mask`. This will produce the following result:
 
