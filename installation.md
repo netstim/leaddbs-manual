@@ -14,15 +14,15 @@
 ## Normal installation
 
 1. Download Lead-DBS from [here](https://www.lead-dbs.org/download/).
-2. Extract the downloaded zip into your MATLAB toolbox folder. For example, it can be in your home folder under `Documents/MATLAB/toolbox`.  Please avoid extracting Lead-DBS into MATLAB installation folder or other folder which requires `sudo` or `administrator` permission. An installation directory path with spaces should also be avoided.
+2. Extract the downloaded zip into your MATLAB toolbox folder. For example, it can be in your home folder under `Documents/MATLAB/toolbox`. Please avoid extracting Lead-DBS into MATLAB installation folder or other folder which requires `sudo` or `administrator` permission. An installation directory path with spaces should also be avoided.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder and choose `Add to Path` -> `Selected Folders and Subfolders` .
 
 Once Lead-DBS is added to your MATLAB search path, you can run Lead-DBS by entering the command `lead dbs` into the MATLAB Command Window.
 
-If you used previous versions of Lead-DBS before but see errors when you run it after you install a new version, can run `ea_restoreprefs(1,1)` to reset the preferences and try again.
+If you have used previous versions of Lead-DBS, but encounter an error when running a new version, you can run `ea_restoreprefs(1,1)` to reset the preferences and try again.
 
-If Lead-DBS subfolders are somehow not completely added to MATLAB search path, you can run \`ea\_setpath\` to update the path.
+If Lead-DBS subfolders are somehow not completely added to MATLAB search path, you can run `ea_setpath` to update the path.
 
 ## Installation via GitHub
 
@@ -31,7 +31,7 @@ For more experienced users or developers who'd also wish to modify the code and 
 1. Clone the Lead-DBS repository from [here](https://github.com/netstim/leaddbs) and switch to `develop` branch.
 2. Download the necessary [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
-4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` to set the path.&#x20;
+4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` to set the path.
 
 This alternative way of installation can also make it easy to receive quicker (most often daily) hotfixes or updates and helps us to assist you in a more flexible way.
 
@@ -60,4 +60,3 @@ NIfTI viewer [MRIcron](https://www.nitrc.org/projects/mricron/), [Mango](https:/
 [DSI-Studio](https://dsi-studio.labsolver.org/)
 
 [TrackVis](https://trackvis.org/)
-
