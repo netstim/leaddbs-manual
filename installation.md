@@ -18,11 +18,7 @@
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder and choose `Add to Path` -> `Selected Folders and Subfolders` .
 
-Once Lead-DBS is added to your MATLAB search path, you can run Lead-DBS by entering the command `lead dbs` into the MATLAB Command Window.
-
-If you have used previous versions of Lead-DBS, but encounter an error when running a new version, you can run `ea_restoreprefs(1,1)` to reset the preferences and try again.
-
-If Lead-DBS subfolders are somehow not completely added to MATLAB search path, you can run `ea_setpath` to update the path.
+Once Lead-DBS is added to your MATLAB search path, you can start it by running `lead dbs` in MATLAB Command Window.
 
 ## Installation via GitHub
 
@@ -31,11 +27,16 @@ For more experienced users or developers who'd also wish to modify the code and 
 1. Clone the Lead-DBS repository from [here](https://github.com/netstim/leaddbs) and switch to `develop` branch.
 2. Download the necessary [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
-4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` to set the path.
+4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` in MATLAB Command Window to set the path.
 
 This alternative way of installation can also make it easy to receive quicker (most often daily) hotfixes or updates and helps us to assist you in a more flexible way.
 
 We'd love to implement your improvements into Lead-DBS – feel free to submit pull requests or contact us for direct push access.
+
+## Tips
+
+* If you have used previous versions of Lead-DBS, but encounter errors when running a new version, you can run `ea_restoreprefs(1,1)` in MATLAB Command Window to reset the preferences and try again.
+* If Lead-DBS subfolders are somehow not completely added to MATLAB search path (in such case you may see `Unrecognized function or variable` error), you can run `ea_setpath` in MATLAB Command Window to update the search path.
 
 ## Installing additional content
 
