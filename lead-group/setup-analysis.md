@@ -9,7 +9,7 @@ After you open Lead-Group by typing `lead group` in MATLAB, here are the steps y
 **2)** Name your group analysis in the window that pops up. (fig. 1) This process creates a .mat file inside your derivatives/leadgroup/groupanalysisID folder that will store the group information including the stimulation parameters and regressors. (fig. 2)
 
 {% hint style="info" %}
-**The name of your group analysis should contain only letters and numbers, dashes and other characters are not supported!**
+**The name of your group analysis should contain only letters and numbers. Dashes and other characters are not supported!**
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-08-14 at 12.58.54 (1).png" alt=""><figcaption><p>Fig. 2: Folder organization.</p></figcaption></figure>
