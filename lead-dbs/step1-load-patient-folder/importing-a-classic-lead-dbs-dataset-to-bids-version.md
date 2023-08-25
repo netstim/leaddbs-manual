@@ -100,8 +100,8 @@ Files such as `tmp`, `v_rc…` , `grid`, `lanat` (this is just a zoomed image, i
 
 ### Essential files in a legacy folder of a patient with postoperative CT scan
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Here is how a classic/legacy leadDBS folder for a patient with postoperative CT images looks like.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-08-25 at 18.16.32.png" alt=""><figcaption></figcaption></figure>
 
 ### Essential files in a legacy folder of a patient with a postoperative MRI scan
 
-<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-08-25 at 18.18.20.png" alt=""><figcaption></figcaption></figure>
