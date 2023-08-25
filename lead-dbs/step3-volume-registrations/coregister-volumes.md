@@ -8,7 +8,7 @@
 
 <figure><img src="../../.gitbook/assets/UI_coregistration.png" alt=""><figcaption><p>UI settings for coregistration.</p></figcaption></figure>
 
-1. Load your patient folder in BIDS format into Lead as described in [step1-load-patient-folder](../step1-load-patient-folder/ "mention").
+1. Load your patient folder in BIDS format into Lead as described in [step1-load-patient-folder.md](../step1-load-patient-folder.md "mention").
 2. Select the patient you want to register in the window on the left (arrow 1).
 3. Select `Coregistration Volumes` and `Check Results`, so you can see the output of coregistration (arrows 2 and 3).&#x20;
 4. If coregistration has been run before, select `Retouch/overwrite approved results` (arrow 4) to get a new instance of coregistration results.
