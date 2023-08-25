@@ -1,8 +1,7 @@
 ---
 description: >-
-  This page is currently under construction. We are happy to answer any
-  questions related to BIDS migration in our Slack support channel. Thank you
-  for your patience!
+  We are happy to answer any questions related to BIDS migration in our Slack
+  support channel.
 ---
 
 # Importing a classic Lead-DBS dataset to BIDS version
@@ -30,16 +29,6 @@ In case you run into problems, here is a more detailed explanation of the classi
 
 {% hint style="info" %}
 If multiple coregistration attempts were made in the classic folder, there might be more files named as "anat\_t12postop\_ct\_ants**2,** anat\_t12postop\_ct\_ants**3..** etc. In this case, Lead-DBS will migrate the last one.&#x20;
-{% endhint %}
-
-{% hint style="info" %}
-In case you are dealing with post-op CT and the transformations were not stored
-
-for the coregistration (this can be the case with old datasets), you can change
-
-`ea_prefs` line 114 to postopct instead of rpostopct. Then reconstruction can be
-
-performed without using those matrices.
 {% endhint %}
 
 {% hint style="info" %}
