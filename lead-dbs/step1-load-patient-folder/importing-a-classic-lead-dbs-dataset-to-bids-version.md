@@ -57,20 +57,18 @@ coregistered scan directly. anat\_t2 to t1 transformations are also not stored.
 * `y_ea_(inv_)normparams` -> transformation files for normalization if SPM was used as method of normalization. These will be stored under "derivatives/leaddbs/patientID/normalization/transformations"
 
 {% hint style="info" %}
-You can check `ea_normmethod_applied` to know which method was preferred for normalization
+You can check `ea_normmethod_applied` to learn which method was preferred for normalization.
 {% endhint %}
-
-
 
 ### Log Files
 
 *   `ea_coreg_approved`->stores approval status of coregistration, brainshift and
 
     normalization. It will automatically be transfered to BIDS format. **If this file is not present, everything will be set to approved when importing by default. In this case we recommend you to double check your coregistration, normalization and brainshift correction results.**
-*   `ea_coregmrmethod_applied` and `ea_normmethod_applied:` stores info about
+*   `ea_coregmrmethod_applied` and `ea_normmethod_applied` -> stores info about
 
     which algorithms were used. The contents will be moved under "derivatives/leaddbs/patientID/coregistration/logs/" and "derivatives/leaddbs/patientID/normalization/logs/" respectively.
-* `ea_ui`: stores the options used in the GUI. This will be moved under "derivatives/leaddbs/patientID/prefs" folder
+* `ea_ui`-> stores the options used in the GUI. This will be moved under "derivatives/leaddbs/patientID/prefs" folder
 
 ### Reconstruction Files
 
@@ -81,30 +79,29 @@ You can check `ea_normmethod_applied` to know which method was preferred for nor
 
 * `scrf` folder -> scrf stands for subcortical refine. The contents of this will be moved under "derivatives/leaddbs/patientID/brainshift" folder.
 
-### VTA Calculation Files
+### Stimulation Volume Files
 
 * `headmodel`  folder -> stores the head model for VTA computation
 * `stimulations` folder -> contains the files for VTA and e-field models. These will be moved under "derivatives/leaddbs/patientID/stimulations"
   *   In very old patient folders, the `gs_*` folders in stimulations are stored directly under
 
       stimulations (i.e., no native or MNI… subfolder is present). This may be becuase stimulation calculation was done before native space VTA calculation was introduces. Therefore, BIDS import will move these old folders under "derivatives/leaddbs/patientID/stimulations/MNI..." subfolder.&#x20;
+*   Subfolders under the stimulation/gs\_ folders with the connectome name (e.g.
 
+    PPMI74…) should be deleted. Or if you want to reuse previously calculated fingerprint maps, the legacy folders should be renamed to the correct connectome name before migration (since all connectomes were renamed)
 
+### Miscellaneous Files
 
-*   tp\_\* images are the tonemapped images, i.e. copies of the images with a better
-
-    contrast
-* rpostop\_ct: co-registered,
-* glpostop\_ct: normalized
+* Other files that might be present in the legacy folder will be moved to "derivatives/leaddbs/patientID/miscellaneous" folder.
 
 {% hint style="info" %}
-`tmp`, `v_rc…` , `grid`, `lanat` (this is just a zoomed image, i.e. different field of
-
-view) files can be removed
+Files such as `tmp`, `v_rc…` , `grid`, `lanat` (this is just a zoomed image, i.e. different field of view) can be deleted before import.
 {% endhint %}
 
-#### 1) Patient with Post-operative CT Images
+### Essential files in a legacy folder of a patient with postoperative CT scan
 
 <figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Here is how a classic/legacy leadDBS folder for a patient with postoperative CT images looks like.</p></figcaption></figure>
 
-![](<../../.gitbook/assets/image (23).png>)
+### Essential files in a legacy folder of a patient with a postoperative MRI scan
+
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
