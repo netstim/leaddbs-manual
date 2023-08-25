@@ -9,13 +9,7 @@ description: >-
 
 If you have a dataset already set up with the classic version, importing them into the BIDS version is quite easy. <mark style="background-color:yellow;">Simply click the add patients button and choose the classic (or 'legacy') patient folder. This will automatically run the legacy import process</mark>.&#x20;
 
-In case you run into problems, here is a more detailed explanation of the classic lead dbs file types and how they will be processed during the BIDS import. Y
-
-#### 1) Patient with Post-operative CT Images
-
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Here is how a classic/legacy leadDBS folder for a patient with postoperative CT images looks like.</p></figcaption></figure>
-
-Here are some common files and how they will be converted into BIDS.
+In case you run into problems, here is a more detailed explanation of the classic lead dbs file types and how they will be processed during the BIDS import.&#x20;
 
 ### Raw Images and Preprocessing Files
 
@@ -103,10 +97,14 @@ You can check `ea_normmethod_applied` to know which method was preferred for nor
 * rpostop\_ct: co-registered,
 * glpostop\_ct: normalized
 
-![](<../../.gitbook/assets/image (23).png>)
-
 {% hint style="info" %}
 `tmp`, `v_rc…` , `grid`, `lanat` (this is just a zoomed image, i.e. different field of
 
 view) files can be removed
 {% endhint %}
+
+#### 1) Patient with Post-operative CT Images
+
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption><p>Here is how a classic/legacy leadDBS folder for a patient with postoperative CT images looks like.</p></figcaption></figure>
+
+![](<../../.gitbook/assets/image (23).png>)
