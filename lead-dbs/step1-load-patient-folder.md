@@ -2,7 +2,7 @@
 
 <figure><img src="../.gitbook/assets/directory.png" alt="" width="563"><figcaption></figcaption></figure>
 
-Click on `Choose Patient Directory` at the top of the main window to select the folder you would like to save your data to. You can use a folder already in BIDS format or select an empty folder. If you select an empty folder, Lead-DBS will automatically create 3 subfolders **(derivatives, rawdata, sourcedata)** and a json file **(dataset\_description.json)** within that folder. The resulting dataset folder should look like this:
+Click on `Choose Dataset Directory` at the top of the main window to select the folder you would like to save your data to. **The name of this dataset directory should contain ONLY alphanumeric characters, but NO special characters, including underscores. It is also strongly recommended to **_**not**_** use reserved words such as **_**leaddbs**_**, **_**lead\_group**_**,**_**derivatives**_** as the name of the dataset directory**. The name should reflect the project you are working on_._ You can use a folder already in BIDS format or select an empty folder. If you select an empty folder, Lead-DBS will automatically create 3 subfolders **(derivatives, rawdata, sourcedata)** and a json file **(dataset\_description.json)** within that folder. The resulting dataset folder should look like this:
 
 <figure><img src="../.gitbook/assets/Screen Shot 2023-06-08 at 11.34.26.png" alt=""><figcaption></figcaption></figure>
 
