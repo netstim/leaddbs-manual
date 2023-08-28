@@ -79,11 +79,9 @@ _Image 2.2 Calculating weighted average maps, adapted from Horn, 2022._
 
 <summary>Combined Map (Horn 2017)</summary>
 
-Combined map is a combination of Correlation and Weighted average results, where respective values for each voxel are multiplied together.
+The Combined Map combines Correlation and Weighted average results. The respective values for each voxel are first multiplied, and then, only positive or negative voxels in both maps are kept in the weighted average map. The rest is turned to "NaN' values.
 
-![](<../../.gitbook/assets/image (8).png>)
 
-_Image 2.3 Calculating Combined Maps from correlation and weighted average results, adapted from Horn, 2022._
 
 </details>
 
