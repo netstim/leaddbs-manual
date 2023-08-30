@@ -75,10 +75,11 @@ You can check `ea_normmethod_applied` in the legacy patient folder to know which
 
 * Other relevant files that might be present in the legacy folder will be moved to "derivatives/leaddbs/sub-patientID/miscellaneous" folder.
 
-### Essential files in a legacy folder of a patient with postoperative CT scan
+### Essential files in a legacy folder of a patient with post-op CT
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-08-25 at 18.16.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/postopCT-folder.png" alt=""><figcaption></figcaption></figure>
 
-### Essential files in a legacy folder of a patient with a postoperative MRI scan
+### Essential files in a legacy folder of a patient with a post-op MRI
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-08-25 at 18.18.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/postopMRI-folder.png" alt=""><figcaption></figcaption></figure>
+
