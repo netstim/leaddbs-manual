@@ -37,6 +37,7 @@ We'd love to implement your improvements into Lead-DBS – feel free to submit p
 
 * If you have used previous versions of Lead-DBS, but encounter errors when running a new version, you can run `ea_restoreprefs(1,1)` in MATLAB Command Window to reset the preferences and try again.
 * If Lead-DBS subfolders are somehow not completely added to MATLAB search path (in such case you may see `Unrecognized function or variable` error), you can run `ea_setpath` in MATLAB Command Window to update the search path.
+* On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support MATLAB version <= R2023a.
 
 ## Installing additional content
 
