@@ -35,9 +35,21 @@ We'd love to implement your improvements into Lead-DBS – feel free to submit p
 
 ## Tips
 
-* If you have used previous versions of Lead-DBS, but encounter errors when running a new version, you can run `ea_restoreprefs(1,1)` in MATLAB Command Window to reset the preferences and try again.
-* If Lead-DBS subfolders are somehow not completely added to MATLAB search path (in such case you may see `Unrecognized function or variable` error), you can run `ea_setpath` in MATLAB Command Window to update the search path.
-* On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support MATLAB version <= R2023a.
+{% hint style="info" %}
+If you have used previous versions of Lead-DBS, but encounter errors when running a new version, you can run `ea_restoreprefs(1,1)` in MATLAB Command Window to reset the preferences and try again.
+{% endhint %}
+
+{% hint style="info" %}
+If Lead-DBS subfolders are somehow not completely added to MATLAB search path (in such case you may see `Unrecognized function or variable` error), you can run `ea_setpath` in MATLAB Command Window to update the search path.
+{% endhint %}
+
+{% hint style="info" %}
+If you have GitHub installation of Lead-DBS and want to switch between `develop` and `classic` branches, you would also need to download the classic [data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into Lead-DBS folder. To switch the branch, you can use the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This way the prefs and recent patient/group histories for the two branches will be preserved properly.
+{% endhint %}
+
+{% hint style="info" %}
+On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support MATLAB version <= R2023a.
+{% endhint %}
 
 ## Installing additional content
 
