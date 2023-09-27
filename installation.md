@@ -44,11 +44,11 @@ If Lead-DBS subfolders are somehow not completely added to MATLAB search path (i
 {% endhint %}
 
 {% hint style="info" %}
-If you have GitHub installation of Lead-DBS and want to switch between `develop` and `classic` branches, you would also need to download the classic [data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into Lead-DBS folder. To switch the branch, you can use the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This way the prefs and recent patient/group histories for the two branches will be preserved properly.
+On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support MATLAB version <= R2023a.
 {% endhint %}
 
 {% hint style="info" %}
-On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support MATLAB version <= R2023a.
+If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This will ensure that the prefs and recent histories for both branches are preserved correctly.
 {% endhint %}
 
 ## Installing additional content
