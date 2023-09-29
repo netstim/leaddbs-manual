@@ -33,7 +33,11 @@ This alternative way of installation can also make it easy to receive quicker (m
 
 We'd love to implement your improvements into Lead-DBS – feel free to submit pull requests or contact us for direct push access.
 
-## Tips
+## Installing additional content
+
+Several add-ons are available which can be installed manually from inside Lead-DBS. For most cases, Lead-DBS will try to auto-install these when needed. You can also take a look at the `Install` menu within the main Lead-DBS GUI to install custom items.
+
+## Troubleshooting
 
 {% hint style="info" %}
 If you have used previous versions of Lead-DBS, but encounter errors when running a new version, you can run `ea_restoreprefs(1,1)` in MATLAB Command Window to reset the preferences and try again.
@@ -48,12 +52,12 @@ On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support M
 {% endhint %}
 
 {% hint style="info" %}
-If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This will ensure that the prefs and recent histories for both branches are preserved correctly.
+If you encounter permission issue when running Lead-DBS on macOS, can run `ea_clear_xattr` to fix it.
 {% endhint %}
 
-## Installing additional content
-
-Several add-ons are available which can be installed manually from inside Lead-DBS. For most cases, Lead-DBS will try to auto-install these when needed. You can also take a look at the `Install` menu within the main Lead-DBS GUI to install custom items.
+{% hint style="info" %}
+If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This will ensure that the prefs and recent histories for both branches are preserved correctly.
+{% endhint %}
 
 ## Disclaimer
 
