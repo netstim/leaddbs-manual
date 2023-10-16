@@ -37,6 +37,11 @@ We'd love to implement your improvements into Lead-DBS – feel free to submit p
 
 Several add-ons are available which can be installed manually from inside Lead-DBS. For most cases, Lead-DBS will try to auto-install these when needed. You can also take a look at the `Install` menu within the main Lead-DBS GUI to install custom items.
 
+## Update Lead-DBS
+
+* If you have a normal installation of Lead-DBS, you can use the menu `Install` -> `Install development version of Lead-DBS`. It will download and apply the latest hotfix before a new release is available.
+* If you have Lead-DBS installed via GitHub, simply `pull` from GitHub (in the terminal or any Git client you prefer).
+
 ## Troubleshooting
 
 {% hint style="info" %}
