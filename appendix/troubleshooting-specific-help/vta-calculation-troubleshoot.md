@@ -8,12 +8,13 @@ Dear traveler in the realms of VTAs and electric fields & Lead-DBS user! If you 
 
 In general, you have two options:
 
-1. Go for the new and shiny tool, OSS-DBS v2. This is the future anyways, the model is better and it just works. We would recommend to try that. Soon, OSS-DBS will become the default and part of the official release, but unfortunately, we are not there yet.&#x20;
+1. Go for the new and shiny tool, OSS-DBS v2. This is the future anyways, the model is better and it just works. We would recommend to try that. OSS-DBS is available at 'develop' branch.&#x20;
    1. To use it anyways:&#x20;
       1. Install Lead-DBS via github (see [Installation](../../installation.md#installation-via-github))[ ](../../installation.md)
-      2. Check out the branch ‘ossdbsV2’ (you can google how to check out branches on git if new to git, it’s all very well documented with tons of tutorials online).&#x20;
-      3. Open Lead-DBS and Choose the Preferences Menu -> Edit Preferences File… In the file that opens, find the line that says prefs.env.dev=0; and switch to prefs.env.dev=1;&#x20;
-      4. Have fun with OSS-DBS (choose the model instead of the fieldtrip one).&#x20;
+      2. If you have Lead-DBS already installed, we still recommend to update your templates/ folder with the latest [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud). This will ensure that the SPM-based segmentation files are up-to-date.
+      3. Check out 'develop' branch (you can google how to check out branches on git if new to git, it’s all very well documented with tons of tutorials online).&#x20;
+      4. Have fun with OSS-DBS (choose the model instead of the FieldTrip one). Don't forget to take a look at Settings to check the simulation setup, e.g. the electric field thresholding.
+      5. Occassionally, OSS-DBS will be re-installed when running a new simulations. This happens automatically, when we update the remote repository.
 2. Try to debug the old (FieldTrip/SimBio) tool:&#x20;
    1. Calculating the stimulation volume is dependent on creating a suitable tetrahedral volumetric mesh describing the structure of the conducting & insulating parts of the electrode surrounded by anatomical structures (grey and white matter). Lead-DBS uses multiple tools to do this, including the SimBio - FieldTrip pipeline (Vorwerk et al, 2018) as well as Iso2Mesh (Qianqian Fang, 2009) and, most importantly, TetGen (Hang Si. 2015) .
    2. Given the variations of electrode placements relative to anatomical structures, it can happen that during mesh building, triangles of the two components intersect. This will lead to downstream problems for calculating the voltage distribution and electric field. If this happens, Lead-DBS will throw out an error.
