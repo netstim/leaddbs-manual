@@ -105,6 +105,23 @@ XYZ=reco.scrf.coords_mm{2}(3,:)
 
 will deliver the left hemispheric (`{2}`) third most ventral (`(3,:)`) contact inside the native space anchor modality (which is usually the T1 image). Of note, those are usually not that useful and not comparable across subjects. The `mni` or `acpc` coordinates are and we strongly suggest using `mni`coordinates for comparisons or statistical analyses.
 
+
+
+### Querying active electrode contacts from a Lead group project file
+
+It can be convenient to query coordinates of active contacts directly using Lead group projects. For instance, the below code snippet would denote all active contacts of a project after loading the `dataset-*.mat` file inside the `leadgroup` derivatives folder.
+
+As in the example above, the entries in the right hemisphere will be in {1}, the ones in the left in the {2} cell. In this example, if multiple electrode contacts were active, their coordinates would get averaged (`mean()` command). This could be key to note in case of segmented electrodes, since it could lead to unwanted effects if e.g. segments a and b (but not c) are active. As always, plotting the results to make sure they check out makes sense.
+
+```
+for pt=1:length(M.patient.list)
+    for side=1:2
+        activectx{side}(pt,:)=mean(M.elstruct(pt).coords_mm{side}(...
+            logical(M.S(pt).activecontacts{side}),:),1);
+    end
+end
+```
+
 ### ea\_spherical\_roi
 
 This function will make a spherical region of interest around a user identified mni coordinates. It takes file name, mni coordinates in (mm), radius (in mm), and path of space template file in which the sphere will be identified, as arguments
