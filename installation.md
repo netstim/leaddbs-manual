@@ -3,7 +3,7 @@
 ## Prerequisite
 
 * Recommended RAM size: 32GB or more
-* MATLAB: R2022a or later
+* MATLAB: R2022b or later
 * MATLAB Image Processing Toolbox
 * MATLAB Signal Processing Toolbox
 * MATLAB Statistics and Machine Learning Toolbox
