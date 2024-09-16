@@ -12,25 +12,17 @@ description: Electrophysiology setup to use the Lead-OR platform
 
 ## Custom plug-ins installation
 
-The links above describe the different ways to install the plug-ins. Here, only the one via github cli is described. Install [github cli](https://cli.github.com/) and run the following commands to install the plug-ins:
+The links above describe the different ways to install the plug-ins. Here, only the one via GitHub CLI is described. Install [GitHub CLI](https://cli.github.com/) and run the following commands to install the plug-ins:
 
 #### Windows
 
 ```
+copy /y "C:\Program Files (x86)\AlphaOmega\Neuro Omega System SDK\CPP_SDK\win64\NeuroOmega_x64.dll" "C:\ProgramData\Open Ephys\shared-api8"
 gh release download --clobber --dir "C:\ProgramData\Open Ephys\plugins-api8" --pattern *.dll --repo netstim/OpenEphysNeuroOmega
+gh release download --clobber --dir "C:\ProgramData\Open Ephys\configs-api8" --pattern *.xml --repo netstim/OpenEphysNeuroOmega
+gh release download --clobber --dir "C:\ProgramData\Open Ephys\plugins-api8" --pattern *.dll --repo netstim/OpenEphysRMS
 gh release download --clobber --dir "C:\ProgramData\Open Ephys\shared-api8" --pattern *.dll --repo netstim/OpenEphysIGTLink
 gh release download --clobber --dir "C:\ProgramData\Open Ephys\plugins-api8" --pattern *.dll --repo netstim/OpenEphysLeadOR
-gh release download --clobber --dir "C:\ProgramData\Open Ephys\plugins-api8" --pattern *.dll --repo netstim/OpenEphysRMS
-
-```
-
-#### MacOS
-
-```
-gh release download --clobber --dir ~/Library/Application\ Support/open-ephys/shared-api8 --pattern *.dylib --repo netstim/OpenEphysIGTLink;\
-gh release download --clobber --dir ~/Library/Application\ Support/open-ephys/plugins-api8 --pattern *.bundle.zip --repo netstim/OpenEphysLeadOR;\
-gh release download --clobber --dir ~/Library/Application\ Support/open-ephys/plugins-api8 --pattern *.bundle.zip --repo netstim/OpenEphysRMS;\
-unzip -o ~/Library/Application\ Support/open-ephys/plugins-api8/*.bundle.zip -d ~/Library/Application\ Support/open-ephys/plugins-api8/
 ```
 
 ## Building a processing pipeline
