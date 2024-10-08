@@ -24,12 +24,14 @@ Once Lead-DBS is added to your MATLAB search path, you can start it by running `
 
 For more experienced users or developers who'd also wish to modify the code and potentially improve Lead-DBS, there is an alternative way of installation:
 
-1. Clone the Lead-DBS repository from [here](https://github.com/netstim/leaddbs) and switch to `develop` branch.
+1. Clone (NOT download) the Lead-DBS repository from [here](https://github.com/netstim/leaddbs) and switch to `develop` branch.
 2. Download the necessary [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud) and unzip it into the cloned git repository.
 3. Add SPM12 in your MATLAB search path: right-click on the SPM12 folder and choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`).
 4. Add Lead-DBS in your MATLAB search path: right-click on the Lead-DBS folder, choose `Add to Path` -> `Selected Folders` (**NOT** `Selected Folders and Subfolders`) and then run `ea_setpath` in MATLAB Command Window to set the path.
 
 This alternative way of installation can also make it easy to receive quicker (most often daily) hotfixes or updates and helps us to assist you in a more flexible way.
+
+If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev` (ensure [Git](https://git-scm.com/downloads) is installed on your system. While it often comes preinstalled on Linux and macOS, Windows users typically need to install it manually). This will ensure that the prefs and recent histories for both branches are preserved correctly.
 
 We'd love to implement your improvements into Lead-DBS – feel free to submit pull requests or contact us for direct push access.
 
@@ -58,10 +60,6 @@ On macOS, Lead-DBS version < 3.0 and the classic branch on GitHub only support M
 
 {% hint style="info" %}
 If you encounter permission issue when running Lead-DBS on macOS, can run `ea_clear_xattr` to fix it.
-{% endhint %}
-
-{% hint style="info" %}
-If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data\_classic\_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev`. This will ensure that the prefs and recent histories for both branches are preserved correctly.
 {% endhint %}
 
 ## Disclaimer
