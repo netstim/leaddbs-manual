@@ -1,16 +1,20 @@
+---
+hidden: true
+---
+
 # Discriminative Fibertracts analysis
 
 ## Discriminative Fibertracts Analysis
 
 The concept of discriminative fibertracts is to isolate bundles that are associated with an effect upon neuromodulation. This effect could be e.g. clinical (e.g. %-UPDRS-III improvement following STN-DBS) or behavioral (e.g. change in risk-taking behavior or movement speed in a motor task).
 
-This analysis builds upon [Lead group](../../../lead-group/group-analyses-with-lead-dbs.md). It is important to have all VTAs/E-Fields calculated for this (press the `Calculate stats & VTA` button).
+This analysis builds upon [Lead group](../../lead-group/group-analyses-with-lead-dbs.md). It is important to have all VTAs/E-Fields calculated for this (press the `Calculate stats & VTA` button).
 
 Click on the `Visualize 3D` button inside `Lead group`.
 
 In the 3D viewer, click on the "`Add discriminative fibertract`" button:
 
-![Click on this button to open up the Discriminative Fibertracts explorer](../../../.gitbook/assets/discfiber-add.png)
+![Click on this button to open up the Discriminative Fibertracts explorer](../../.gitbook/assets/discfiber-add.png)
 
 {% hint style="info" %}
 In this analysis stream, you have to once calculate tract metrics for any combination of normative connectomes and statistical metric. Once this is done, you can explore the results more or less "live"
@@ -20,7 +24,7 @@ In the 3D fibers viewer, choose your metric of choice. The following metrics hav
 
 ### Spearman's Correlations / E-Fields
 
-![Fig. 1: Spearman's Correlations / E-Fields method](../../../.gitbook/assets/fiberfiltering-efield.png)
+![Fig. 1: Spearman's Correlations / E-Fields method](../../.gitbook/assets/fiberfiltering-efield.png)
 
 In this method, each single tract is selected from the normative connectome. The statistics are calculated for each tract _separately_. In the figure above, one _example tract_ can be seen (A). Note how parts of this tract traverse "through" some of the E-Fields estimated in your `Lead Group` analysis (shown in yellow). They traverse less closely to the ones shown in blue but will still traverse through areas of those E-Fields that have a lower magnitude sum (remember that the E-Field is the estimated vector field denoting changes in Voltage induced by the stimulation. It's magnitude would be the absolute difference of Voltage between two points).
 
@@ -32,7 +36,7 @@ In this method, each single tract is selected from the normative connectome. The
 
 ### Two-sample T-Tests / VTAs
 
-![Fig. 2: T-Test / VTA method](../../../.gitbook/assets/fiberfiltering-vta.png)
+![Fig. 2: T-Test / VTA method](../../.gitbook/assets/fiberfiltering-vta.png)
 
 In this method, the same is done for binary VTAs (which in the case of Lead-DBS are thresholded E-Fields).
 
