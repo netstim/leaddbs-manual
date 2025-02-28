@@ -7,6 +7,7 @@
 ## Lead-DBS
 
 * [Overview](lead-dbs/step0-overview.md)
+* [Self-Tutoring with Lead-Tutor](lead-dbs/self-tutoring-with-lead-tutor.md)
 * [1. Load Patient Folder](lead-dbs/step1-load-patient-folder.md)
   * [Importing a classic Lead-DBS dataset to BIDS version](lead-dbs/step1-load-patient-folder/importing-a-classic-lead-dbs-dataset-to-bids-version.md)
 * [2. Image Import](lead-dbs/step2-image-import/README.md)
