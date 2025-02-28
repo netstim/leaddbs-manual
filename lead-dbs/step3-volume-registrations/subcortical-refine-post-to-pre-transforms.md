@@ -19,8 +19,8 @@ We estimate the refine transform on interpolated and resliced data which is usua
 The subcortical refine step uses ANTs and you don't have the option to choose from a multitude of software. This is due to the fact that any software would probably get these transforms right since images should already be pretty much aligned at this point. We use a layered transform composed of rigid, affine \[and mask1, mask2 if masks are used] stages in this final ANTs registration step.
 
 As a side note:\
-_This processing step was completely implemented into Lead-DBS during the_ [_2017 brainhack global event at MIT in Boston_](https://brainhack-boston.github.io)_._\
-_Many thanks go out to the organizers of the event – as always @ brainhack, it was phenomenal._
+&#xNAN;_&#x54;his processing step was completely implemented into Lead-DBS during the_ [_2017 brainhack global event at MIT in Boston_](https://brainhack-boston.github.io)_._\
+&#xNAN;_&#x4D;any thanks go out to the organizers of the event – as always @ brainhack, it was phenomenal._
 
 [![](../../.gitbook/assets/brainhack.png)](https://www.brainhack.org)
 
@@ -37,7 +37,7 @@ _Many thanks go out to the organizers of the event – as always @ brainhack, it
 
 In our example, let's see the use of the `Coarse Mask`. This will produce the following result:
 
-![Image 4. Examle of brainshift correction using Coarse + Fine Mask.](../../.gitbook/assets/results\_brainshift.png)
+![Image 4. Examle of brainshift correction using Coarse + Fine Mask.](../../.gitbook/assets/results_brainshift.png)
 
 3. As highlighted by the yellow arrows, some regions better overlap in this refined transform. The estimated transformation matrix is printed in the top right corner of the figure.
 4. You can use a slice viewer (such as e.g. [3D Slicer](https://slicer.org\)) to further examine results in detail. The relevant files will be in derivatives/leaddbs/`patient folder/brainshift/anat.`
