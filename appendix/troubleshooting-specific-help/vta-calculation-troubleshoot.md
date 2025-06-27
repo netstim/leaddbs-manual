@@ -8,10 +8,10 @@ Dear traveler in the realms of VTAs and electric fields & Lead-DBS user! If you 
 
 In general, you have two options:
 
-1. Go for the new and shiny tool, OSS-DBS v2. This is the future anyways, the model is better and it just works. We would recommend to try that. OSS-DBS is available at 'develop' branch.&#x20;
+1. Go for the new and shiny tool, OSS-DBS v2. This is the future anyways, the model is better and it just works. We would recommend to try that. OSS-DBS is available at 'develop' branch. Windows users might need to install git if it has not been installed previously.
    1. To use it anyways:&#x20;
       1. Install Lead-DBS via github (see [Installation](../../installation.md#installation-via-github))[ ](../../installation.md)
-      2. If you have Lead-DBS already installed, we still recommend to update your templates/ folder with the latest [data](https://www.lead-dbs.org/release/download.php?id=data\_pcloud). This will ensure that the SPM-based segmentation files are up-to-date.
+      2. If you have Lead-DBS already installed, we still recommend to update your templates/ folder with the latest [data](https://www.lead-dbs.org/release/download.php?id=data_pcloud). This will ensure that the SPM-based segmentation files are up-to-date.
       3. Check out 'develop' branch (you can google how to check out branches on git if new to git, it’s all very well documented with tons of tutorials online).&#x20;
       4. Have fun with OSS-DBS (choose the model instead of the FieldTrip one). Don't forget to take a look at Settings to check the simulation setup, e.g. the electric field thresholding.
       5. Occassionally, OSS-DBS will be re-installed when running a new simulations. This happens automatically, when we update the remote repository.
