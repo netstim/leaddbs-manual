@@ -72,5 +72,6 @@
 * [Matlab scripting examples](appendix/useful-command-line-tools/README.md)
   * [Installing an atlas from an online repository](appendix/useful-command-line-tools/installing-an-atlas-from-a-repository.md)
   * [Warping a normative connectome to native subject space](appendix/useful-command-line-tools/warping-a-normative-connectome-to-native-subject-space.md)
+  * [Plotting atlas structures onto 3D slices](appendix/useful-command-line-tools/plotting-atlas-structures-onto-3d-slices.md)
 * [Using Slicer](appendix/using-slicer/README.md)
   * [Sweet-sour spot](appendix/using-slicer/sweet-sour-spot.md)

@@ -18,11 +18,11 @@ This page is currently under construction.
 
 ### 1. User Interface
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Image 1. Sweetspot Explorer user interface.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>Image 1. Sweetspot Explorer user interface.</p></figcaption></figure>
 
 Sweetspot Explorer builds upon the Lead group and therefore, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in the Lead group interface) in order to use it. Click on the `Visualize 3D` button inside the Lead group and in the 3D viewer window, click on `Add sweetspot analysis` the button.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="52"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="52"><figcaption></figcaption></figure>
 
 A new window with the Sweetspot Explorer user interface pops up, offering a selection of methods for further analysis. This window can be divided into 3 subparts: `Interactive Model Setup`, `Visualization & Thresholds`, and `Crossvalidation & Prediction` (Figure 1).
 
