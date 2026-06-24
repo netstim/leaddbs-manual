@@ -33,7 +33,59 @@ This alternative way of installation can also make it easy to receive quicker (m
 
 If you have the GitHub installation of Lead-DBS and need to switch between the `develop` branch and the `classic` branch, you must also download the [classic data](https://www.lead-dbs.org/release/download.php?id=data_classic_pcloud) and unzip it into the Lead-DBS installation folder. To switch branches, you can utilize the MATLAB helper functions`ea_switch2classic` and `ea_switch2dev` (ensure [Git](https://git-scm.com/downloads) is installed on your system. While it often comes preinstalled on Linux and macOS, Windows users typically need to install it manually). This will ensure that the prefs and recent histories for both branches are preserved correctly.
 
-We'd love to implement your improvements into Lead-DBS – feel free to submit pull requests or contact us for direct push access.
+We'd love to implement your improvements into Lead-DBS – feel free to submit pull requests or contact us for direct push access.<br>
+
+## Installing OSS-DBS v2
+
+OSS-DBS v2 is an electric field and pathway activation modeling platform used by Lead-DBS. It is installed automatically in the background (via conda) the first time you select it in the Lead-DBS GUI. If the automatic installation succeeds, no further steps are needed.
+
+{% hint style="info" %}
+Warning: The automatic conda-based installation may fail in the following cases:
+
+* Windows: `git` is not installed (see prerequisites above)
+* All platforms: a conflicting Anaconda installation is present on the system
+* All platforms: firewall policies block the download
+{% endhint %}
+
+In these cases, follow the manual installation instructions below.
+
+#### Manual installation via pre-built binaries (Windows only)
+
+If the automatic conda-based installation of OSS-DBS fails, you can link a pre-built binary bundle manually:
+
+1. Download the OSS-DBS binary bundle:\
+   https://github.com/SFB-ELAINE/OSS-DBSv2/releases/download/v0.5.5/ossdbs\_bundle.zip
+2. Extract the zip to a permanent location on your system, e.g. `C:\software\ossdbs_bundle`.
+3. In the Lead-DBS GUI, go to `Preferences` -> `Edit Preferences File`
+4. Add the following line at the end of the file:
+
+```matlab
+prefs.oss_bin_path = 'C:\software\ossdbs_bundle';
+```
+
+5. Lead-DBS will use the binary bundle instead of the conda environment.
+
+#### Manual installation via pip (Linux and macOS)
+
+If the automatic installation fails on Linux or macOS, you can install OSS-DBS via pip:
+
+1. Run the following commands in your terminal:
+
+```bash
+python3 -m venv ossdbs-env
+source ossdbs-env/bin/activate
+pip install ossdbs
+```
+
+2. In the Lead-DBS GUI, go to `Preferences` -> `Edit Preferences File` and add the following line at the end, replacing the path with your actual venv location:
+
+```matlab
+prefs.ext_oss_env = '/home/username/ossdbs-env/';
+```
+
+{% hint style="info" %}
+Info: On Ubuntu 24.04 and later, a virtual environment is required for pip installs (enforced via PEP 668). The commands above create and activate one before installing. You can confirm the correct path by activating the environment (`source ossdbs-env/bin/activate`) and running `which ossdbs` - use the output path without the trailing `/bin/ossdbs`.
+{% endhint %}
 
 ## Installing additional content
 
