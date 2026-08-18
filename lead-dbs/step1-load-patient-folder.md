@@ -38,3 +38,7 @@ These images should be in the selected patient folder. **You may have more views
 You can use the up and down arrows in this part to select the previous or next patient folder. For instance, you may have a folder `cohort`with patient folders `patient001`through to `patient010`and would like to move up or down between patient folders. The dropdown menu `Recent patients` provides quick access to recently analyzed patient folders.
 
 The indicator at the bottom notifies whether a postoperative MR or CT image was detected. This can be changed with the [next step](step2-image-import/) after importing and renaming images.
+
+{% hint style="info" %}
+If you are using LeGUI, you do not need to set an electrode model and number of electrodes at this stage. This will be set within LeGUI later on.&#x20;
+{% endhint %}

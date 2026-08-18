@@ -19,11 +19,11 @@
    * _Bounding box_: Determines the final size of the 2D image.
 3. Images are stored as `.png` files within the patient folder and are named according to the electrode and the plane they belong.
 
-![Image 2. 2D Export contact k1 on the right.](../../.gitbook/assets/2D-k1-axial.png)
+<img src="../../.gitbook/assets/2D-k1-axial.png" alt="Image 2. 2D Export contact k1 on the right." width="375">
 
 ### 2. Rendering the 3D Scene
 
-![Image3. Lead-DBS 3D Viewer with Atlas Control and Slice Control panels on the right.](../../.gitbook/assets/3DViewer.png)
+<img src="../../.gitbook/assets/3DViewer.png" alt="Image3. Lead-DBS 3D Viewer with Atlas Control and Slice Control panels on the right." width="375">
 
 1. If you set the `Render 3D` button in the Lead-DBS main window and press the `Run` (Image 1) button, the Lead-DBS 3D viewer pops up and renders the reconstructed electrodes and the atlas components in the main window.
 2. This figure can be rotated in 3D using the built-in MATLAB 3D rotation tool and atlas components can be hidden (and shown back again) by pressing the corresponding colored checkboxes in the secondary toolbar of the viewer (press the `alt`-key to hide/show all atlases of the set – this only works if no other tool, such as the MATLAB 3D rotation tool is selected).

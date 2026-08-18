@@ -26,7 +26,7 @@ Fiber Filtering Explorer helps us understand which specific fiber tracts are ass
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Image 1. Fiber Filtering Explorer user interface.</p></figcaption></figure>
 
-Fiber Filtering Explorer builds upon [**Lead group**](broken-reference). For this step, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in Lead group interface). Click on the `Visualize 3D` button inside Lead group and in the 3D viewer window, click on `Add fiber filtering analysis` button.
+Fiber Filtering Explorer builds upon [**Lead group**](https://app.gitbook.com/s/aEKrtfptpsNlKGfPk7Bs/lead-group). For this step, all the VTAs/E-fields have to be calculated (press the `Calculate stats & VTA` button in Lead group interface). Click on the `Visualize 3D` button inside Lead group and in the 3D viewer window, click on `Add fiber filtering analysis` button.
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt="" width="56"><figcaption></figcaption></figure>
 
@@ -80,17 +80,8 @@ Figure 2.1 T-Test / VTA method
 Figure 2.2 Spearman's Correlations / E-Fields method
 
 * In this method, each single tract is selected from the normative connectome. The statistics are calculated for each tract separately. In the figure above, one example tract can be seen (A). Note how parts of this tract traverse "through" some of the E-Fields estimated in your Lead Group analysis (shown in yellow). They traverse less closely to the ones shown in blue but will still traverse through areas of those E-Fields that have a lower magnitude sum (remember that the E-Field is the estimated vector field denoting changes in Voltage induced by the stimulation. It's magnitude would be the absolute difference of Voltage between two points).&#x20;
-
-<!---->
-
 * <mark style="color:blue;">Fig. 2.2 A</mark>: Each tract is represented as discrete points in space (N x 3 vector if N is the length of the tract; red dots in (A)). The average values at these points for each E-Field (regardless as yellow or blue in A) will be sampled. Depending on your strategy / concept (see below), these values can now be averaged or summed up. Alternatively, you can simply use the peak value (more conforming to the "all or nothing" principle of action potentials) or the 5% peak values. This strategy will lead to one value for each pair of tract and E-Field (N x M if N is number of tracts and M is number of E-Fields; represented as fibsval for each hemisphere in the code).&#x20;
-
-<!---->
-
 * <mark style="color:blue;">Fig. 2.2 B</mark>: When calculating Spearman's correlations between this structure and a clinical/behavioral variable (e.g. %-UPDRS-III improvement), we will get one Spearman's correlation coefficient for each tract.&#x20;
-
-<!---->
-
 * <mark style="color:blue;">Fig. 2.2 C</mark>: We can now use these coefficients (R) to color-code and select tracts for visualization.
 
 </details>

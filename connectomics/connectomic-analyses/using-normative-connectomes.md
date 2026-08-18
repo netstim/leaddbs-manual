@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Using Normative Connectomes
 
 {% hint style="info" %}
@@ -12,8 +33,7 @@ Normative connectomes are brain connectivity profiles that are represented in a 
 
 ## How To
 
-Connectomes can be structural (tract based) or functional (fMRI based). For structural connectomes, the basic building block is a "tract file", whose data structure is specific for Lead DBS. These tract files can be in `.trk` format and then converted to Lead-DBS specific `.mat` format using the function `ea_trk2ftr` . Briefly, a Lead-DBS specific tract file is a struct which contans the variables:\
-
+Connectomes can be structural (tract based) or functional (fMRI based). For structural connectomes, the basic building block is a "tract file", whose data structure is specific for Lead DBS. These tract files can be in `.trk` format and then converted to Lead-DBS specific `.mat` format using the function `ea_trk2ftr` . Briefly, a Lead-DBS specific tract file is a struct which contans the variables:<br>
 
 * fibers - n x 4 array, where column 1,2 and 3 represents the x,y,z coordinates of each point in a streamline and column 4 represents which fiber bundle the streamline belongs to.
 * idx - number of streamlines in one fiber bundle, used to index the fiber.

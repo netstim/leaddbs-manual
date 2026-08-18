@@ -18,3 +18,22 @@
 | **Output**                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | <ul><li>A pop-up window with information about methods and references. If this information is not needed, the window can be closed.</li><li>New coregistration data will appear in the selected file, under <code>derivatives/leaddbs/patient_name/coregistration/</code>.</li></ul> |
+|                                                                                                                                                                                                                                                                                      |
+
+### Realign to AC-PC&#x20;
+
+This option allows to realign the anchor image (i.e., preoperative T1w MRI) to the AC-PC plane. This pre-processing step is fully optional and has been implemented as a legacy function of LeGUI.&#x20;
+
+#### How to&#x20;
+
+1. Select `realign to AC-PC` and click `Run`.&#x20;
+2. A pop-up window will open. Scroll over the different slices to find the anatomical landmarks (AC, PC and midsaggital point).&#x20;
+3. Use right click to mark **in order** the AC (green dot), PC (red dot), and a midsaggital point (blue dot). Use a midsaggital point close to the superior brain edge, anywhere between the AC and PC points on the antero-posterior axis. Typically, axial view works best to place the AC and PC, and coronal view works best to place the midsaggital point.&#x20;
+4. If needed, adjust the cropping box to skin edge.&#x20;
+5. Close window to save and indicate whether you wish to crop the image.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2026-08-17 at 2.50.41 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Note that the realign to AC-PC step overwrites the corresponding image in the preprocessing > anat folder. For this reason, if used, it should be run before the image registration steps (coregistration, normalization).&#x20;
+{% endhint %}

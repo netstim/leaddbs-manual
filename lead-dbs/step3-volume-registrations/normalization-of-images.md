@@ -63,3 +63,7 @@ If applicable, Lead-DBS also gives you the option to normalize fiber tracking im
 | **Output**                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li>A pop-up window with information about methods and references. If this information is not needed, the window can be closed.</li><li>New normalization data will appear in the selected file, under <code>derivatives/leaddbs/patient_name/normalization</code>.</li></ul> |
+
+{% hint style="info" %}
+The default ANTS implementation for Lead-DBS has been optimized for subcortical structures. If you are reconstructing SEEG electrodes using LeGUI, you may want to consider using a different normalization algorithm. The legacy version of LeGUI used SPM Segment.
+{% endhint %}

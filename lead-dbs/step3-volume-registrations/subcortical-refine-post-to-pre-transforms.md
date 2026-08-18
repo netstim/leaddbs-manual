@@ -19,8 +19,8 @@ We estimate the refine transform on interpolated and resliced data which is usua
 The subcortical refine step uses ANTs and you don't have the option to choose from a multitude of software. This is due to the fact that any software would probably get these transforms right since images should already be pretty much aligned at this point. We use a layered transform composed of rigid, affine \[and mask1, mask2 if masks are used] stages in this final ANTs registration step.
 
 As a side note:\
-&#xNAN;_&#x54;his processing step was completely implemented into Lead-DBS during the_ [_2017 brainhack global event at MIT in Boston_](https://brainhack-boston.github.io)_._\
-&#xNAN;_&#x4D;any thanks go out to the organizers of the event – as always @ brainhack, it was phenomenal._
+_&#x54;his processing step was completely implemented into Lead-DBS during the_ [_2017 brainhack global event at MIT in Boston_](https://brainhack-boston.github.io)_._\
+_&#x4D;any thanks go out to the organizers of the event – as always @ brainhack, it was phenomenal._
 
 [![](../../.gitbook/assets/brainhack.png)](https://www.brainhack.org)
 
@@ -46,3 +46,7 @@ In our example, let's see the use of the `Coarse Mask`. This will produce the fo
 | **Output**                                                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <ul><li>A pop-up window with information about methods and references. If this information is not needed, the window can be closed.</li><li>New normalization data will appear in the selected file, under <code>derivatives/leaddbs/patient_name/brainshift/</code>. <code>Anat</code> folder contains results, c<code>heckreg</code> folder stores the images as <code>.png</code> files</li></ul> |
+
+{% hint style="info" %}
+Brainshift correction may not be appropriate to use for SEEG electrode reconstructions. The default options use masks centered around the basal ganglia, meaning that the resulting correction may not accurately account for brainshift in cortical or other regions targeted by SEEG electrodes. You may choose to skip this step or, if using it, carefully review the results. Brainshift correction was not part of the legacy LeGUI pipeline.
+{% endhint %}

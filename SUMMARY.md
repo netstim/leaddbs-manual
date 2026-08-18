@@ -27,6 +27,7 @@
     * [User-Assisted Algorithm (Manual Refine)](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/determining-the-orientation-of-directional-leads/user-assisted-algorithm-manual-refine.md)
   * [TRAC/CORE Details](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/trac-core-details.md)
   * [Manual Reconstruction](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/manual-reconstruction.md)
+  * [SEEG electrode reconstruction (LeGUI)](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/seeg-electrode-reconstruction-legui.md)
   * [Reconstruction File](lead-dbs/step5-optional-reconstruction-of-electrode-trajectories/reconstruction-file.md)
 * [6. (optional) Perform Connectivity Analysis](lead-dbs/step6-optional-perform-connectivity-analysis.md)
 * [7. Visualization](lead-dbs/step7-visualization/README.md)

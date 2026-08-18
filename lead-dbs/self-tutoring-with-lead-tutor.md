@@ -17,3 +17,7 @@ After loading the downloaded Lead Tutor dataset to Lead-DBS, a button to "Submit
 <figure><img src="../.gitbook/assets/Screenshot 2025-02-28 at 11.18.44 AM.png" alt=""><figcaption><p>Lead Tutor result: This page, shown once clicking "Submit results..." will give you feedback on how accurate the results were.</p></figcaption></figure>
 
 The resulting page, shown once clicking "Submit results..." will give you feedback on how accurate the results were. You can repeat the process as often as you would like, either by starting from scratch or by refining your localizations.
+
+{% hint style="info" %}
+For SEEG electrode reconstructions with LEGUI, you may download publicly available datasets to use as training datasets. An example on OpenNeuro is the[ Numbers dataset](https://openneuro.org/datasets/ds005415/versions/1.0.0) (Rockhill et al.).&#x20;
+{% endhint %}

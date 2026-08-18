@@ -12,8 +12,7 @@ If you have problems with PACER or TRAC/CORE, it is also possible to pre-reconst
 
 ![](<../../.gitbook/assets/Screen Shot 2023-06-27 at 19.58.56.png>)
 
-![](<../../.gitbook/assets/Screen Shot 2023-06-27 at 19.56.14.png>)\
-
+![](<../../.gitbook/assets/Screen Shot 2023-06-27 at 19.56.14.png>)<br>
 
 3. Then select a point in the trajectory, again of the electrode **to your right side.** When you're happy with your selection, click OK.
 
