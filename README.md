@@ -1,5 +1,7 @@
 # Introduction
 
+<mark style="background-color:$danger;">**Lead‑DBS is research software intended for retrospective scientific analysis of neuroimaging data, electrode locations and group-level associations in research studies. It is not intended for diagnosis, treatment planning, surgical targeting, DBS programming, patient management, or any other clinical decision concerning an individual patient. Outputs must not be used as a basis for clinical care.**</mark>
+
 Lead-DBS is an open-source, MATLAB-based toolbox to **localize** and **visualize** electrodes in patients treated with deep brain stimulation. Importantly, the toolbox is intended for research and not for clinical use. First, this user guide focuses on Lead-DBS and single patient analysis with co-registration, normalization and reconstruction. Second, the user guide covers group analyses with Lead-Group.
 
 This user guide is intended to cover most use cases. For troubleshooting or other questions, the Lead-DBS community offers great support on the [Slack user channel](https://www.lead-dbs.org/helpsupport/slack-user-channel/).
