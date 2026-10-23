@@ -213,3 +213,35 @@ ea_dispt
 ```
 
 …function that will display a text string in the console but also protocol time (when calling the function on multiple occasions throughout laborious work.
+
+## Important functions in LeGUI
+
+```
+ea_prepare_legui
+```
+
+Prepares Lead-DBS patient data and reconstruction files for opening in LeGUI.
+
+```
+Legui2reco.m
+```
+
+Converts LeGUI electrode/contact data into the standard Lead-DBS reconstruction format.
+
+```
+ea_trajectory_seeg.m
+```
+
+Generates or processes SEEG electrode trajectories from reconstructed contact coordinates.
+
+```
+LeG_autoElecs.m
+```
+
+Automatically detects/localizes electrode contacts from the postoperative imaging.
+
+```
+ea_render_curved_lead.m
+```
+
+Renders electrodes with curved trajectories, particularly useful for SEEG leads rather than straight DBS electrodes.

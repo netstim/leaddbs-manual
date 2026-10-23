@@ -4,7 +4,7 @@ description: SEEG electrode reconstruction and labelling using LeGUI.
 
 # SEEG electrode reconstruction (LeGUI)
 
-Lead-DBS supports SEEG electrode reconstruction, labelling, and visualization through integration of the LeGUI software by Davis et al. The paper describing the legacy version of LeGUI can be found here.&#x20;
+Lead-DBS supports SEEG electrode reconstruction, labelling, and visualization through integration of the LeGUI software by Davis et al. The paper describing the legacy version of LeGUI can be found [here](https://pubmed.ncbi.nlm.nih.gov/34955721/).&#x20;
 
 The LeGUI pipeline consists of 3 main steps:&#x20;
 
@@ -16,7 +16,7 @@ To start LeGUI, select `'LeGUI (Davis 2021)'` in the pre-reconstruction method d
 
 ### LeGUI main window
 
-<figure><img src="../../.gitbook/assets/Screenshot 2026-08-17 at 10.21.55 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2026-10-23 at 11.10.33 AM.png" alt=""><figcaption></figcaption></figure>
 
 The LeGUI main window consists of a left panel showing the preoperative MRI and postoperative CT (2D view), a right panel showing the cortical surface reconstruction (3D view), and a toolbar at the top.&#x20;
 
@@ -69,15 +69,16 @@ This step allows to name all electrodes contacts following the implantation sche
 <figure><img src="../../.gitbook/assets/Screenshot 2026-08-17 at 10.41.11 PM.png" alt=""><figcaption></figcaption></figure>
 
 1. You can now check whether contacts were correctly labelled. Click a contact in the 3-D view to highlight its label, or click a label in the table to highlight its corresponding contact. By default, contacts are numbered from deepest to closest to the cortical surface. You may select the deepest contact in the table and use the top arrow to quickly verify the contact numbering for a given electrode.&#x20;
-2. If some assignments are incorrect, first, switch to the `Edit` table control mode to correct the table. Right click on a column header to delete a column/electrode. Contacts that are no longer assigned will be highlighted in blue. You can also add additional contacts to an electrode by manually entering additional labels, or rename any contacts in the table.&#x20;
+2. If some assignments are incorrect, first, switch to the `Edit` table control mode to correct the table. Right click on a column to delete an electrode. Contacts that are no longer assigned will be highlighted in blue. You can also add additional contacts to an electrode by manually entering additional labels, or rename any contacts in the table.&#x20;
 3. Once the table is correct, switch to the `Assign` table control mode to re-assign blue contacts. Select the contacts using a left click or the polygon selection tool, then select the corresponding labels in the table, and click the `Assign` button below the table.&#x20;
 4. When all assignments are correct, close the electrode assignment window, which will save your work.&#x20;
 
 ### Electrode alignment &#x20;
 
-The `Align Lead` option, accessible from the LeGUI main window, allows to align contacts along a modeled electrode trajectory, taking into account the geometry of the same electrode model (i.e., electrode spacing, which is shown as 5 mm in the example below). This step is optional and may be only applied to electrodes that look poorly aligned. This may occur as the LeGUI automatic contact detection algorithm does not use information on electrode trajectory, but instead detects each contact individually. Use the polygon selection tool to select the electrode contacts to be realigned, and click Align Lead. A warning message will appear if the stored electrode spacing does not correspond to the empirical electrode spacing.&#x20;
+The `Align Lead` option, accessible from the LeGUI main window, allows users to align contacts along a modeled electrode trajectory using contact spacing automatically estimated from the median median Euclidean between detected contacts (i.e., which is shown as 5 mm in the example below). This step is optional and may be only applied to electrodes that look poorly aligned. This may occur as the LeGUI automatic contact detection algorithm does not use information on electrode trajectory, but instead detects each contact individually. Use the polygon selection tool to select the electrode contacts to be realigned, and click Align Lead. A warning message will appear if the stored electrode spacing does not correspond to the empirical electrode spacing.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-08-17 at 10.55.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 You are now done with electrode reconstruction and labeling! Do not forget to click the `Save` button before you exit LeGUI!
 
+Optional: Click `Export PDF` to generate a PDF report of the electrode reconstructions and save electrode contact information (contacts, MNI coordinates, native coordinates, tissue type, NMM atlas region) in a CSV file.

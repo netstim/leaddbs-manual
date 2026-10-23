@@ -42,3 +42,7 @@ We explain steps 1 through 7 in more detail below, assuming a patient implanted 
 The button `Run` in the bottom right runs **all** processes that are checked within the main window. To run only one specific process, please make sure that only the desired checkbox is selected. Checkboxes marked with a **bold** text-face address steps that actually perform an analysis themselves, other checkboxes (standard text-face) are used as options within certain processes.
 
 Hovering over the checkboxes with the mouse will show an explanation of each element of the Main Window.
+
+{% hint style="info" %}
+SEEG reconstructions are supported by LeGUI in Lead-DBS. There may be differences in the pipeline. You can find more information on the corresponding pages.
+{% endhint %}

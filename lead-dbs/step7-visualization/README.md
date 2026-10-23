@@ -42,3 +42,27 @@
 * Different options to set lighting, save screenshots or set the default view.
 * `Save video`: Use this button to export a video of the current scene. This is done based on preferences set in `ea_prefs.m`.
 * The colored squares denote atlas components or added objects. You can add objects such as ROI, and tracts either through drag and drop or 'Add Objects' in the menu bar.
+
+{% hint style="info" %}
+## **LeGUI 3D Visualization Options**
+
+LeGUI includes several options for displaying SEEG reconstructions in 3D:
+
+1. **Spheres vs. Electrodes:** Click the Settings button on the Lead-DBS main window to choose whether contacts are rendered as spheres or electrodes in the 3D view.  `Settings`
+2.  **SEEG Cortex Visualization:** After running Render 3D, click the SEEG Cortex Visualization button (1) to display the electrodes within a 3D cortical rendering. The accompanying settings window can be used to adjust additional features (transparency, surface color, and hemisphere visibility).&#x20;
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2026-09-17 at 3.07.31 PM.png" alt=""><figcaption></figcaption></figure>
+3. **Electrode Label:** Click the Label button (2) to display the electrode name at the distal tip of each electrode.
+4.  **Multi-patient visualization:**&#x20;
+
+    * Multiple SEEG reconstructions can be displayed in a single Lead-DBS MNI view using `LeG_PlotSEEGGroup`. The function can render all patients in a directory or a selected subset, with contacts shown as either spheres or electrode models. When using sphere mode, each patient is automatically assigned a different color.
+
+    ```
+    LeG_PlotSEEGGroup('/path/to/dataset', [], 'sphere')
+    LeG_PlotSEEGGroup('/path/to/dataset', [], 'electrode')
+
+    patients = ["sub-72","sub-84","sub-90"];
+    LeG_PlotSEEGGroup('/path/to/dataset', patients, 'sphere')
+    ```
+{% endhint %}
+

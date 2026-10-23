@@ -40,5 +40,6 @@ You can use the up and down arrows in this part to select the previous or next p
 The indicator at the bottom notifies whether a postoperative MR or CT image was detected. This can be changed with the [next step](step2-image-import/) after importing and renaming images.
 
 {% hint style="info" %}
-If you are using LeGUI, you do not need to set an electrode model and number of electrodes at this stage. This will be set within LeGUI later on.&#x20;
+If you are using LeGUI check the SEEG box, you do not need to set an electrode model and number of electrodes at this stage. This will be set within LeGUI later on.&#x20;
 {% endhint %}
+
